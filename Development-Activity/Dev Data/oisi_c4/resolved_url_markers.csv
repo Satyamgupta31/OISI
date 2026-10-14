@@ -1,0 +1,23 @@
+oisi_id,infrastructure,candidate_repo,platform,action,current_repo_after_update,scored_after_update,note
+C4-005,Archipelago Commons,esmero/strawberryfield,GitHub,marker_only,esmero/strawberryfield;esmero/format_strawberryfield;esmero/webform_strawberryfield;esmero/strawberry_runners;esmero/ami;esmero/archipelago-deployment,yes,Current scoring uses the Archipelago core module set; single repo recorded as candidate.
+C4-006,Archival Resource Key,arks-org/arks.github.io,GitHub,applied,arks-org/arks.github.io,yes,Restored as scoreable documentation/spec repository per resolved list; still marked as standard.
+C4-010,arXiv,arXiv/arxiv-browse,GitHub,already_current,arXiv/arxiv-browse,yes,Current scoring target already matches resolved list.
+C4-016,Blacklight,projectblacklight/blacklight,GitHub,already_current,projectblacklight/blacklight,yes,Current scoring target already matches resolved list.
+C4-017,BrCRIS,brcris-ibict/brcris-interface-busca,GitHub,applied,brcris-ibict/brcris-interface-busca,yes,Restored from not-assessable using resolved GitHub repository.
+C4-019,CLOCKSS,lockss/lockss-daemon,GitHub,already_current,lockss/lockss-daemon,yes,Current scoring target already matches resolved list.
+C4-022,CollectiveAccess,collectiveaccess/providence,GitHub,already_current,collectiveaccess/providence,yes,Current scoring target already matches resolved list.
+C4-023,CORE,oacore/dashboard,GitHub,applied,oacore/dashboard,yes,Restored from not-assessable using resolved GitHub repository.
+C4-024,COUNTER Code of Practice,Project-Counter/cop5,GitHub,applied,Project-Counter/cop5,yes,Restored as scoreable documentation/spec repository per resolved list; still marked as standard.
+C4-025,Creative Commons Licenses,creativecommons/cc-legal-tools,GitHub,marker_only,creativecommons/cc-legal-tools-app,yes,Current scoring uses cc-legal-tools-app; resolved repo recorded as candidate.
+C4-026,Crossref Metadata Retrieval,https://gitlab.com/crossref/rest_api,GitLab,already_current,https://gitlab.com/crossref/rest_api,yes,Current scoring target already matches resolved list.
+C4-027,D4Science Infrastructure,code-repo.d4science.org,Gitea Instance,marker_only,,no,"Resolved target is the host root, not a cloneable repository."
+C4-031,DataCite,datacite/lupo,GitHub,already_current,datacite/lupo,yes,Current scoring target already matches resolved list.
+C4-032,Data Stewardship Wizard,ds-wizard/wizard-server,GitHub,marker_only,ds-wizard/engine-backend;ds-wizard/engine-frontend,yes,Current scoring uses backend + frontend product set; single server repo recorded as candidate.
+C4-034,DLCM Backend,https://gitlab.unige.ch/dlcm/community/dlcm-backend,GitLab (UNIGE),already_current,https://gitlab.unige.ch/dlcm/community/dlcm-backend,yes,Current scoring target already matches resolved list.
+C4-035,DLCM Portal,https://gitlab.unige.ch/dlcm/ui/dlcm-portal,GitLab (UNIGE),already_current,https://gitlab.unige.ch/dlcm/ui/dlcm-portal,yes,Current scoring target already matches resolved list.
+C4-037,DOAJ (Directory of Open Access Journals),DOAJ/doaj,GitHub,already_current,DOAJ/doaj,yes,Current scoring target already matches resolved list.
+C4-046,FAIR Wizard,fair-wizard/fair-wizard-integration-sdk,GitHub,applied,fair-wizard/fair-wizard-integration-sdk,yes,Restored from duplicate exclusion using resolved GitHub repository.
+C4-065,Metadata Encoding and Transmission Standard (METS),mets/METS-schema,GitHub,applied,mets/METS-schema,yes,Restored as scoreable schema repository per resolved list; still marked as standard.
+C4-071,OA Switchboard,https://bitbucket.org/oaswitchboard/api,Bitbucket,already_current,https://bitbucket.org/oaswitchboard/api,yes,Current scoring target already matches resolved list.
+C4-073,OpenAIRE Graph,https://code-repo.d4science.org/D-Net/dnet-hadoop,Gitea (D4Science),already_current,https://code-repo.d4science.org/D-Net/dnet-hadoop,yes,Current scoring target already matches resolved list.
+C4-079,OpenEdition,https://gitlab.openedition.org/lodel2/lodel-skeleton,GitLab (OpenEdition),marker_only,OpenEdition/lodel,yes,Current scoring uses OpenEdition/lodel GitHub mirror; GitLab repo recorded as candidate.

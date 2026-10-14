@@ -1,0 +1,113 @@
+Infrastructure,URL,Feasibility status,Action needed,Human non-merge commits (window),Merge commits (window),Bot commits (window),Active months (/12),Active weeks (/52),Days since last human commit,Human contributor identities (by email; unresolved),Top contributor share %,Effective contributors (1/HHI),Bus factor 50%,Bus factor 80%,Contributors active in both halves,Tags created in window,Latest commit on default branch
+2i2c,https://github.com/2i2c-org/infrastructure,A. Ready (commit metrics computed),,2100,839,226,12,52,0.1,51,33.9,4.95,2,5,22,0,13-10-2026
+Academic Preservation Trust (APTrust),https://github.com/APTrust/registry,A. Ready (commit metrics computed),,156,35,0,12,28,21.2,5,49.4,2.51,2,2,3,0,09-09-2026
+AfricArXiv,https://github.com/AfricArxiv/AfricArXiv-overview,B. Check/replace URL,"Overview/docs repo, no commits since 2021; AfricArXiv runs on hosted platforms — likely not assessable",0,0,0,0,0,,0,,,,,0,0,23-02-2021
+Arches Heritage Data Management Platform,https://github.com/archesproject/arches,A. Ready (commit metrics computed),,707,72,6,12,52,0.3,33,27.3,7.38,3,8,16,22,12-10-2026
+Archipelago Commons,https://github.com/esmero/,C. Organisation URL,Choose ONE primary repository (or a documented set) before measuring,,,,,,,,,,,,,,
+Archival Resource Key,https://github.com/arks-org,C. Organisation URL,Choose ONE primary repository (or a documented set) before measuring,,,,,,,,,,,,,,
+Archivematica,https://github.com/artefactual/archivematica,A. Ready (commit metrics computed),Issues tracked in a separate archivematica/Issues repo; ~48% of window commits are bots,163,0,153,12,38,10.6,4,55.2,2.04,1,2,2,2,10-10-2026
+ArchivesSpace,https://github.com/archivesspace/archivesspace,A. Ready (commit metrics computed),"Issues tracked in Jira, not GitHub",602,215,104,12,52,0.4,39,19.8,7.2,3,6,14,4,12-10-2026
+ARGOS,https://github.com/OpenCDMP/OpenCDMP,B. Check/replace URL,"Looks like a periodic mirror (recent committer dates, old author dates) — likely developed elsewhere; verify",4,0,0,3,4,190.4,1,100,1,1,1,0,2,13-10-2026
+arXiv,https://github.com/arXiv,C. Organisation URL,Choose ONE primary repository (or a documented set) before measuring,,,,,,,,,,,,,,
+AtoM,https://github.com/artefactual/atom,A. Ready (commit metrics computed),,110,0,27,12,32,5,12,30,4.86,2,4,5,5,06-10-2026
+Avalon Media System,https://github.com/avalonmediasystem/avalon,A. Ready (commit metrics computed),,293,51,0,12,40,27.3,7,47.8,2.92,2,3,5,3,09-09-2026
+Biodiversity Heritage Library,https://github.com/gbhl/bhl-us,A. Ready (commit metrics computed),,122,6,0,12,46,6.1,1,100,1,1,1,1,0,08-10-2026
+bioRxiv,https://github.com/api-evangelist/biorxiv,B. Check/replace URL,"Third-party API description repo, not bioRxiv's own code; bioRxiv platform code is not public — exclude or mark not assessable",44,0,0,4,15,3.6,2,86.4,1.31,1,1,0,0,12-10-2026
+BitCurator Environment,https://github.com/bitcurator/bitcurator-salt,A. Ready (commit metrics computed),,1,1,0,1,1,302.9,1,100,1,1,1,0,0,02-12-2025
+Blacklight,https://github.com/projectblacklight,C. Organisation URL,Choose ONE primary repository (or a documented set) before measuring,,,,,,,,,,,,,,
+BrCRIS,https://github.com/projetos-codic-ibict,C. Organisation URL,Choose ONE primary repository (or a documented set) before measuring,,,,,,,,,,,,,,
+Browsertrix,https://github.com/webrecorder/browsertrix,A. Ready (commit metrics computed),,426,1,15,12,52,1.1,12,35.2,4.75,2,4,6,39,12-10-2026
+CLOCKSS,https://github.com/lockss,C. Organisation URL,Choose ONE primary repository (or a documented set) before measuring,,,,,,,,,,,,,,
+COAR International Repository Directory (IRD),https://github.com/antleaf/IRD,A. Ready (commit metrics computed),,62,8,4,10,24,8.6,3,79,1.51,1,2,1,17,22-09-2026
+COAR Notify,https://github.com/coar-notify/coar-notify.net,A. Ready (commit metrics computed),,9,4,0,4,4,104.6,3,77.8,1.59,1,2,1,0,18-06-2026
+CollectiveAccess,https://github.com/collectiveaccess,C. Organisation URL,Choose ONE primary repository (or a documented set) before measuring,,,,,,,,,,,,,,
+CORE,https://github.com/oacore,C. Organisation URL,Choose ONE primary repository (or a documented set) before measuring,,,,,,,,,,,,,,
+COUNTER Code of Practice,https://cop5.countermetrics.org/en/5.1/index.html,E. Not a repository,COUNTER is a standard/document — exclude from Component 4 or assess its tooling repo,,,,,,,,,,,,,,
+Creative Commons Licenses,https://github.com/creativecommons,C. Organisation URL,Choose ONE primary repository (or a documented set) before measuring,,,,,,,,,,,,,,
+Crossref Metadata Retrieval,https://gitlab.com/crossref,D. Non-GitHub host,"gitlab.com: needs a GitLab/Gitea/Bitbucket extractor; issue/PR equivalents exist but must be mapped ; URL is a group/root, pick primary repo",,,,,,,,,,,,,,
+D4Science Infrastructure,https://code-repo.d4science.org/,D. Non-GitHub host,"code-repo.d4science.org: needs a GitLab/Gitea/Bitbucket extractor; issue/PR equivalents exist but must be mapped ; URL is a group/root, pick primary repo",,,,,,,,,,,,,,
+DART (Digital Archivist's Resource Tool),https://github.com/aptrust/dart/,A. Ready (commit metrics computed),,197,4,0,11,23,26.3,3,50.8,2.18,1,2,1,4,04-09-2026
+Database Information System,https://github.com/ub-regensburg/dbis,B. Check/replace URL,No commits since Mar 2025 — dormant or moved; verify,0,0,0,0,0,,0,,,,,0,0,03-03-2025
+Data Citation Corpus,https://github.com/Make-Data-Count-Community/corpus-data-file,B. Check/replace URL,"Data-file repo (1 commit in window), not software",1,0,0,1,1,94.6,1,100,1,1,1,0,0,28-06-2026
+DataCite,https://github.com/datacite,C. Organisation URL,Choose ONE primary repository (or a documented set) before measuring,,,,,,,,,,,,,,
+Data Stewardship Wizard,https://github.com/ds-wizard,C. Organisation URL,Choose ONE primary repository (or a documented set) before measuring,,,,,,,,,,,,,,
+Dataverse,https://github.com/IQSS/dataverse,A. Ready (commit metrics computed),,1830,999,55,12,52,0.1,55,24.3,7.08,3,8,22,5,13-10-2026
+DLCM Backend,https://gitlab.unige.ch/dlcm/community/dlcm-backend,D. Non-GitHub host,gitlab.unige.ch: needs a GitLab/Gitea/Bitbucket extractor; issue/PR equivalents exist but must be mapped,,,,,,,,,,,,,,
+DLCM Portal,https://gitlab.unige.ch/dlcm/ui/dlcm-portal,D. Non-GitHub host,gitlab.unige.ch: needs a GitLab/Gitea/Bitbucket extractor; issue/PR equivalents exist but must be mapped,,,,,,,,,,,,,,
+DMP Tool,https://github.com/cdluc3/dmptool/wiki,B. Check/replace URL,URL pointed to wiki; default branch nearly idle but active development is on the v5 branch — default-branch rule undercounts; verify current DMP Tool repo,3,2,0,3,3,293.1,2,66.7,1.8,1,2,0,27,11-12-2025
+DOAJ (Directory of Open Access Journals),https://github.com/DOAJ,C. Organisation URL,Choose ONE primary repository (or a documented set) before measuring,,,,,,,,,,,,,,
+dokieli,https://github.com/linkeddata/dokieli,A. Ready (commit metrics computed),,916,2,0,12,46,0.6,3,60.7,1.92,1,2,2,0,13-10-2026
+Dryad,https://github.com/CDL-Dryad/dryad-app,B. Check/replace URL,No default-branch commits since Apr 2024 though Dryad is active — repo has likely moved; verify and replace URL,0,0,0,0,0,,0,,,,,0,0,09-04-2024
+DSpace,https://github.com/DSpace/DSpace,A. Ready (commit metrics computed),,1358,1166,541,12,50,0.4,74,19.6,11.85,4,19,20,11,13-10-2026
+DuraCloud,https://github.com/duracloud/duracloud,A. Ready (commit metrics computed),,6,0,0,4,4,124.2,3,50,2.57,1,2,1,2,29-05-2026
+Episciences,https://github.com/CCSDForge/episciences,A. Ready (commit metrics computed),,1126,311,42,12,52,0.4,5,64.4,2.01,1,2,4,22,13-10-2026
+EPrints,https://github.com/eprints/eprints3.4,A. Ready (commit metrics computed),,81,4,0,11,32,5.3,8,74.1,1.77,1,2,3,0,25-09-2026
+Érudit,https://github.com/erudit/eruditorg,B. Check/replace URL,No commits since 2021 — verify whether development moved,0,0,0,0,0,,0,,,,,0,0,13-08-2021
+Europe PMC,https://github.com/EuropePMC/EuropePMC-Annotation-Validator,B. Check/replace URL,"Minor side tool, no commits in window; not representative of Europe PMC",0,0,0,0,0,,0,,,,,0,0,08-09-2025
+FAIR Wizard,https://github.com/fair-wizard,C. Organisation URL,Choose ONE primary repository (or a documented set) before measuring,,,,,,,,,,,,,,
+Fedora,https://github.com/fcrepo/fcrepo,A. Ready (commit metrics computed),"Issues tracked in Jira (FCREPO), not GitHub",62,0,16,10,28,6.4,7,35.5,3.75,2,3,4,6,24-09-2026
+fido,https://github.com/openpreserve/fido,A. Ready (commit metrics computed),,9,0,0,3,3,14.7,1,100,1,1,1,0,1,16-09-2026
+Fulcrum,https://github.com/mlibrary/heliotrope,A. Ready (commit metrics computed),,166,181,66,12,47,0.2,4,55.4,2.57,1,3,4,26,09-10-2026
+Galaxy,https://github.com/galaxyproject/galaxy,A. Ready (commit metrics computed),Very large project — will dominate any unscaled count metric,8127,2101,136,12,52,0,96,18.9,9.85,4,8,34,8,13-10-2026
+GeoServer,https://github.com/geoserver/geoserver,A. Ready (commit metrics computed),"Issues tracked in OSGeo Jira (GEOS), not GitHub",1171,138,190,12,51,2.4,70,19.6,11.78,5,13,27,14,13-10-2026
+Hyku,https://github.com/samvera/hyku,A. Ready (commit metrics computed),,553,161,47,12,49,0.3,19,25.7,6.33,3,5,9,29,13-10-2026
+Hyrax,https://github.com/samvera/hyrax,A. Ready (commit metrics computed),,421,171,8,12,48,3,24,37.1,5.41,3,6,13,6,08-10-2026
+IIIF,https://github.com/IIIF/awesome-iiif,B. Check/replace URL,"Curated link list, not software; IIIF is a standards body — choose a reference implementation or exclude",33,27,0,10,16,13.6,18,24.2,10.18,5,12,0,0,12-10-2026
+ImpactU,https://github.com/colav/impactu,A. Ready (commit metrics computed),,3,0,0,2,2,280.2,1,100,1,1,1,0,0,24-12-2025
+International Generic Sample Number (IGSN),https://github.com/IGSN/igsn.github.io,B. Check/replace URL,Website repo; no commits since 2024 — not a software codebase,0,0,0,0,0,,0,,,,,0,0,29-05-2024
+InvenioRDM,https://github.com/inveniosoftware/invenio-app-rdm,A. Ready (commit metrics computed),,300,0,3,12,50,7.5,37,10.3,18.91,7,16,21,81,02-10-2026
+iRODS,https://github.com/irods/irods,A. Ready (commit metrics computed),,287,1,0,12,47,0,11,48.4,3.18,2,3,6,2,11-10-2026
+Islandora,https://github.com/Islandora/islandora,A. Ready (commit metrics computed),Issues tracked in Islandora/documentation repo,18,0,0,9,12,19.3,8,55.6,2.95,1,5,2,11,11-09-2026
+Janeway,https://github.com/openlibhums/janeway,A. Ready (commit metrics computed),,311,16,3,12,42,8.1,9,37.6,3.54,2,3,4,10,06-10-2026
+JHOVE,https://github.com/openpreserve/jhove,A. Ready (commit metrics computed),,6,5,0,3,3,14.4,3,66.7,2,1,2,0,0,16-09-2026
+LA Referencia,https://github.com/lareferencia/lareferencia-platform,A. Ready (commit metrics computed),,203,12,13,12,38,0.2,5,67,1.9,1,2,1,6,11-10-2026
+Manifold,https://github.com/ManifoldScholar/manifold,A. Ready (commit metrics computed),,357,0,42,12,42,9.3,7,31.7,4.83,2,4,5,13,12-10-2026
+medRxiv,https://github.com/ropensci/medrxivr/,B. Check/replace URL,"Third-party R client (rOpenSci), single maintainer; not medRxiv's own code — exclude or mark not assessable",23,2,0,3,4,52.4,1,100,1,1,1,0,1,09-08-2026
+Metadata Encoding and Transmission Standard (METS),https://github.com/mets,C. Organisation URL,Choose ONE primary repository (or a documented set) before measuring,,,,,,,,,,,,,,
+Mirador,https://github.com/projectmirador/mirador,A. Ready (commit metrics computed),,223,187,27,11,31,0.1,20,51.6,3.25,1,4,3,8,13-10-2026
+Mukurtu CMS,https://github.com/MukurtuCMS/mukurtucms,A. Ready (commit metrics computed),,4,1,0,2,3,317.1,1,100,1,1,1,0,0,17-11-2025
+MyCoRe,https://github.com/MyCoRe-Org/mycore,A. Ready (commit metrics computed),,352,128,28,12,50,0.5,23,13.9,10.65,4,8,14,10,13-10-2026
+NumPy,https://github.com/numpy/numpy,A. Ready (commit metrics computed),Very large project (237 contributors) — will dominate any unscaled count metric,1886,573,186,12,52,0.1,237,41.5,5.51,3,33,33,17,13-10-2026
+OA.Report,https://github.com/oaworks/oa-report,A. Ready (commit metrics computed),,939,284,100,12,47,1.4,3,96.4,1.08,1,1,2,0,06-10-2026
+OA Switchboard,https://bitbucket.org/oaswitchboard/api/src/master/,D. Non-GitHub host,bitbucket.org: needs a GitLab/Gitea/Bitbucket extractor; issue/PR equivalents exist but must be mapped,,,,,,,,,,,,,,
+Omeka,https://github.com/omeka/Omeka,A. Ready (commit metrics computed),Omeka Classic; Omeka S is a separate repo (omeka/omeka-s) — decide which product is in scope,66,5,0,9,23,5.2,3,53,2.16,1,2,2,2,08-10-2026
+OpenAIRE Graph,https://code-repo.d4science.org/D-Net/dnet-hadoop,D. Non-GitHub host,code-repo.d4science.org: needs a GitLab/Gitea/Bitbucket extractor; issue/PR equivalents exist but must be mapped,,,,,,,,,,,,,,
+OpenAlex,https://github.com/ourresearch/openalex-official,A. Ready (commit metrics computed),Small public repo (12 commits); most OpenAlex code is not here — verify representativeness,12,0,0,4,6,12,2,91.7,1.18,1,1,1,1,19-09-2026
+OpenAPC,https://github.com/OpenAPC/openapc-de,A. Ready (commit metrics computed),,2631,286,0,12,51,0.4,11,49.3,2.09,2,2,6,219,13-10-2026
+OpenCitations,https://github.com/opencitations/OpenCitationsCorpus,B. Check/replace URL,"Legacy corpus repo, no commits since 2014; OpenCitations' current code is in other opencitations repos — replace URL",0,0,0,0,0,,0,,,,,0,0,20-01-2014
+openCost,https://github.com/opencost-de/opencost/tree/main/doc,B. Check/replace URL,URL pointed to /doc subfolder — use repository root,52,9,0,5,11,1.4,4,75,1.7,1,2,1,0,07-10-2026
+Open Data Editor,https://github.com/okfn/opendataeditor,A. Ready (commit metrics computed),,19,0,0,4,9,13.4,7,57.9,2.67,1,4,1,2,17-09-2026
+OpenEdition,https://gitlab.openedition.org/public,D. Non-GitHub host,"gitlab.openedition.org: needs a GitLab/Gitea/Bitbucket extractor; issue/PR equivalents exist but must be mapped ; URL is a group/root, pick primary repo",,,,,,,,,,,,,,
+Open Journal Systems (OJS),https://github.com/pkp/ojs,A. Ready (commit metrics computed),Most PKP shared code and ALL issues live in pkp/pkp-lib — issue metrics must come from pkp-lib,920,135,4,12,52,0.6,38,28.7,7.67,3,9,12,13,13-10-2026
+Open Monograph Press (OMP),https://github.com/pkp/omp,A. Ready (commit metrics computed),Issues tracked in pkp/pkp-lib,422,65,3,12,51,1.2,19,32,6.15,3,6,12,8,12-10-2026
+Open Preprint Systems (OPS),https://github.com/pkp/ops,A. Ready (commit metrics computed),Issues tracked in pkp/pkp-lib,376,57,2,12,50,1.2,18,31.4,6.27,3,7,12,8,12-10-2026
+Openverse,https://github.com/WordPress/openverse,A. Ready (commit metrics computed),,12,0,38,5,7,20.2,6,50,3.27,1,4,0,2,13-10-2026
+O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (The Brazilian Open Access Publications and Scientific Data Portal) (Oasisbr),https://github.com/projetos-codic-ibict/oasisbr-vufind,A. Ready (commit metrics computed),,14,0,0,5,8,99.2,2,92.9,1.15,1,1,1,0,23-06-2026
+OSF (Open Science Framework),https://github.com/CenterForOpenScience/osf.io,A. Ready (commit metrics computed),,299,205,0,12,49,1.4,20,23.4,8.75,4,8,11,71,08-10-2026
+Oxford Common File Layout,https://github.com/OCFL/spec,B. Check/replace URL,Specification repo; activity pattern differs from software — compare only with other specs,5,0,0,3,4,174.3,3,40,2.78,2,2,1,0,08-10-2026
+Peer Community In,https://github.com/pci-dev/pci,A. Ready (commit metrics computed),,71,40,0,12,25,8.6,4,66.2,2.09,1,3,1,23,08-10-2026
+PKP Preservation Network,https://github.com/pkp/pln,A. Ready (commit metrics computed),,45,3,0,5,9,14.1,3,91.1,1.2,1,1,1,2,16-09-2026
+PREreview,https://github.com/PREreview/prereview.org,A. Ready (commit metrics computed),Direct-push workflow (no merge commits) and 19% bot commits — PR metrics will describe little,2648,0,612,12,52,0.5,5,91,1.2,1,1,3,0,12-10-2026
+Pressbooks,https://github.com/pressbooks/pressbooks,A. Ready (commit metrics computed),,153,0,17,12,46,0.3,11,30.1,5.09,2,4,7,34,08-10-2026
+Public Access Submission System,https://github.com/eclipse-pass/main,A. Ready (commit metrics computed),,14,0,12,5,8,135.3,3,50,2.28,1,2,2,3,03-08-2026
+Public Utility Data Liberation (PUDL),https://github.com/catalyst-cooperative/pudl/,A. Ready (commit metrics computed),,406,0,87,12,51,1.2,22,39.2,4.94,2,6,11,333,13-10-2026
+PubPub,https://github.com/pubpub/pubpub-editor,B. Check/replace URL,"Legacy editor package, no commits since 2020; current PubPub platform is in another repo — replace URL",0,0,0,0,0,,0,,,,,0,0,25-03-2020
+Pundit,https://github.com/net7/pundit-client,A. Ready (commit metrics computed),,58,4,0,4,6,68.4,2,82.8,1.4,1,1,0,3,24-07-2026
+pyOpenSci,https://github.com/pyOpenSci/pyopensci.github.io,B. Check/replace URL,"Website repo, not software; pyOpenSci is a community — consider excluding or flagging as non-software",237,71,94,12,40,1.2,15,70,1.97,1,2,4,0,13-10-2026
+Renku,https://github.com/SwissDataScienceCenter/renku,A. Ready (commit metrics computed),,61,0,62,12,37,0.5,14,26.2,7.67,3,8,6,90,13-10-2026
+RePEc,https://github.com/repec-org/Scripts,B. Check/replace URL,"Helper scripts, no commits since 2017; RePEc core services not on GitHub",0,0,0,0,0,,0,,,,,0,0,06-11-2017
+Research Organization Registry (ROR),https://github.com/ror-community/ror-site,B. Check/replace URL,Marketing website; ROR's registry software is ror-community/ror-api — replace URL,324,446,0,12,49,5.2,4,78.4,1.58,1,2,1,0,08-10-2026
+Rogue Scholar,https://github.com/front-matter/rogue-scholar,A. Ready (commit metrics computed),,386,0,0,9,28,112.6,2,64,1.85,1,2,2,1,10-06-2026
+RSpace,https://github.com/rspace-os/rspace-web,A. Ready (commit metrics computed),,643,0,4,12,52,0.5,13,26.4,6.53,3,6,9,13,13-10-2026
+Sciety,https://github.com/sciety/sciety,A. Ready (commit metrics computed),,554,0,55,10,26,16.4,13,44,3.69,2,3,3,0,14-09-2026
+Synapse,https://github.com/Sage-Bionetworks/Synapse-Repository-Services,A. Ready (commit metrics computed),,1341,546,0,12,52,0,8,25.1,5.45,2,4,6,91,12-10-2026
+TagTeam,https://github.com/berkmancenter/tagteam,F. No activity in window (dormant),No commits since 2020 — dormant,0,0,0,0,0,,0,,,,,0,0,01-02-2020
+Thoth Open Metadata,https://github.com/thoth-pub/thoth,A. Ready (commit metrics computed),,627,169,0,11,40,26.4,4,80.5,1.51,1,1,2,25,04-09-2026
+Tropy,https://github.com/tropy/tropy,A. Ready (commit metrics computed),,809,1,0,12,48,0.5,5,79,1.55,1,2,3,27,13-10-2026
+veraPDF,https://github.com/veraPDF/veraPDF-library,A. Ready (commit metrics computed),,50,16,4,12,28,3.2,8,42,3.37,2,3,4,247,12-10-2026
+ViPER,https://github.com/openpreserve/ViPER,A. Ready (commit metrics computed),,2,1,0,1,2,28.4,1,100,1,1,1,0,19,03-09-2026
+Vireo ETD,https://github.com/TexasDigitalLibrary/Vireo,A. Ready (commit metrics computed),,47,59,7,6,17,75.1,5,42.6,3.33,2,3,3,2,20-07-2026
+VIVO,https://github.com/vivo-project/VIVO,A. Ready (commit metrics computed),,54,12,0,11,24,6.4,8,38.9,3.67,2,3,2,4,29-09-2026
+VuFind®,https://github.com/vufind-org/vufind,A. Ready (commit metrics computed),"Issues tracked in Jira, not GitHub",1011,243,97,12,52,0.5,43,26.5,7.41,3,7,15,8,12-10-2026
+Zenodo,https://github.com/zenodo/zenodo-rdm,A. Ready (commit metrics computed),,287,0,0,12,44,1.3,15,50.9,3.36,1,4,6,82,12-10-2026
+Zotero,https://github.com/zotero/zotero,A. Ready (commit metrics computed),Direct-push workflow; user support via forums — issue/PR metrics under-represent responsiveness,1003,0,0,12,52,0.3,21,69.3,2.02,1,3,8,24,13-10-2026

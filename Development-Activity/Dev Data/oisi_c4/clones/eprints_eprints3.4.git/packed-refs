@@ -1,0 +1,54 @@
+# pack-refs with: peeled fully-peeled sorted 
+8ac395b3808f1444229640f9e59882b1989661e3 refs/heads/470-subobject-to_sax-causes-500-error-if-there-are-multiple-and-subobject-is-null
+a006bc876a277efb4fb8743e889c451cee1ff560 refs/heads/anubis-and-cache-tweaks
+cce1909dd55bee71b4de020fe74da07b8b9f1d63 refs/heads/batchedit-uuid
+af693a25647d44af3d60440b797233c001da6f46 refs/heads/cachemap_uuid
+28477179e9067197797df5c44c71d622a3b60873 refs/heads/citation_cache_context
+89dca0be3db90147d5d69bf097d89ef72765cf39 refs/heads/comment_improvements
+d51f236f74bcb8fb550899c6de18478558c60ceb refs/heads/feat/allow-menu-top
+fad95a5955a23b4966ae55155c27334c6fec048d refs/heads/fix_get_custom_view_header_location
+9e19ab6e497acacb8e1b8740c99f64ff582a5add refs/heads/fix_gpl_phrases
+ae08f5c23b175e66479a344a2d9b3e698fe3f550 refs/heads/fix_preview_of_video
+58913074651aaaeb12889c88c4df280a620e6503 refs/heads/improve_crud_error
+d04a91453d917b66758faeade64859c71b47388b refs/heads/infinite_scroll_backport
+421bc1134ae82167c3c479409f9ddb60a37765f7 refs/heads/issue-506-remove-failed-add-record
+76ce2a2bffb37e8fe8c6fef9e2938632700720a7 refs/heads/issue-561-staff-export
+5dcdd4bdd029ae4a06a916e66973d65618217c3d refs/heads/issue-614-verify-password-change
+8f62b6db5fc41a4049fb31bdf90e17ee810e3256 refs/heads/issue-617-missing-phrase-problem_writing_file
+b62a150233e83693e592e3c647031fa143eb4faa refs/heads/issue556-new-loc-relators
+e404de45c8dd6da0aa8477d59a8f0381935e0b48 refs/heads/issue581-event-queue-priority
+c6556eabb6c851f67f8128de125910e6e93ba8d7 refs/heads/issue597-xapian-empty-ordervalue
+a2f88cad49625ec61a717d9e13f111c79a850772 refs/heads/issue601-reindex-odd-file-ext
+be1f877ceaf14396eb4cc3fa571bec1e3021fc33 refs/heads/make_ingredient_for_EPMs_experiment
+2c8fd7d7cec7b58dc49249ca7b12dce1d873cb71 refs/heads/master
+2597478b436738f65ad59d4aca749c875158acf6 refs/heads/reduce-db-queries
+0e93eb9ad601d1bf2973ce6c5cce755c3c1b573b refs/heads/retain_epm_datasets
+7ec259dfe9d8f91c9850e3413bfbfb7127f6cb61 refs/heads/rtf2txt
+dc6bc74104c8c8d6949b23f4208bdea9d3f9688c refs/heads/startindex-for-opensearch
+fc7634479b75922f3d5ad503d7f3b1ef2112b368 refs/heads/stop-duplicate-doc-placements
+ec95a9b84a5f2326081245477b89032d815c3cfc refs/heads/trigger_revision_files
+fc8d8d0af2854db169621a51aa7d0dd401737a12 refs/heads/untitled_subjects
+c13a9a817ab2ef4908b4611f39281b884f80bbb2 refs/heads/wr1r25-subroutine-order
+6ebdf913d67b19b5c885a2ccd88c000e2b9f7c8e refs/tags/v3.4.0
+^ab3229b94d799d6cfb4b970252fe5be5b6b5480d
+e3d9a4a55022a8193dedc6e1593ffca069253d37 refs/tags/v3.4.0-rc1
+d93e080db8e2b6cc90befe0462c165e315084b91 refs/tags/v3.4.1
+bfeeac02311e478fb9899930c51102eb17ed480c refs/tags/v3.4.1-rc2
+^40787566ac2d065ede96aa8253ee2dfc37a8ed0d
+c176e57845ef75b58d955575fd32711e224f1e36 refs/tags/v3.4.2
+8a507414d44b953584e61a135f4ee3f1f68ec15b refs/tags/v3.4.2-rc1
+8a507414d44b953584e61a135f4ee3f1f68ec15b refs/tags/v3.4.2-rc2
+8a507414d44b953584e61a135f4ee3f1f68ec15b refs/tags/v3.4.2-rc3
+e2610c1717cdb9029aaeed900df8e7a8ca35224c refs/tags/v3.4.3
+5c618e327c85b6f8aed91d8708149b7544a8e6fe refs/tags/v3.4.3-rc1
+2e6504f386f0e57e1581c4fadee2f7f4dec87bfb refs/tags/v3.4.3-rc2
+^c069f2fbc78eab04a06559ef8a81d64c0a780354
+f31a87f8afd4b3c593f12e8a64d30bb081533a88 refs/tags/v3.4.4
+0db6cbce94a9f2a4e1aedb7375e579a2bb7c589f refs/tags/v3.4.4-rc1
+e08862948a02c4c3fde5acba50af1976b0031d5f refs/tags/v3.4.5
+635eddaf4da8e9b259191d6d70bbc0b8c1a1e1be refs/tags/v3.4.5-rc1
+d3fe15ea05bfe1265cb42eae7ddaff0a8410addc refs/tags/v3.4.5-rc2
+e0612d805a7955cb30d329ad1e3d79096573f950 refs/tags/v3.4.6
+e4acd17008f99d27110bde9f1959893228f2ba9c refs/tags/v3.4.6-rc1
+027b65ce0272914c03fcb81a35d89f95372a8d6c refs/tags/v3.4.7
+0488d16b392c40efa2c0021a142239dad1687f2b refs/tags/v3.4.7-rc1

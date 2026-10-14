@@ -1,0 +1,7 @@
+# pack-refs with: peeled fully-peeled sorted 
+a694bef0d237ab291cb7beae7f86dc8b7cf7690e refs/heads/development
+7172c796d183accce67127a9bcaafba778411d87 refs/heads/feature/remove-swimlanes
+1e185df71ad66d0bafd62b2dd3e400d31c21ae25 refs/heads/main
+e978a2ab487a8dc11d3be232511a1af825506148 refs/heads/pr/issue-46
+d97fd73c4e95b3f0a75d475950124b9ad52aa902 refs/heads/pr/typos
+5ac16e102104edabd83a40e8247dad958929b363 refs/heads/with-swim-lanes

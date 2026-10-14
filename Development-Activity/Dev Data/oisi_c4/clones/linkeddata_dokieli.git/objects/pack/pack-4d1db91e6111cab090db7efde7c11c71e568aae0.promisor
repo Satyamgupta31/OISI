@@ -1,0 +1,16 @@
+fba9f0eae80f4f657eb2aa2d7f87ce4fbc872117 HEAD
+1a6f65b1e49ae7cfdf88895180a07d5bf1966884 refs/heads/chore/optimize-graph
+75122f136e7865ed3c3b6f4af27966d44cdc43f8 refs/heads/chore/perf
+9e00ad74184dfb912b2e3a9b19049698d61d5401 refs/heads/dev/collaborative-editor
+e64f7e42ccb4bb4aad3f0f007382bd9a226eda85 refs/heads/dev/highlight-entities
+07dea26f7423014f03663a96c382ca200199c93e refs/heads/dev/markdown-support
+96a03235d1f7aebed7869f814834b41879e721b4 refs/heads/dev/oh-yeah
+55efb9effd71c6d6d5208d73214e1025f6b94d66 refs/heads/dev/ui-info-signin-fonts
+8a5b7c58ec81d5d8ca9e8b3b6dc5d5e8aaf2f789 refs/heads/dev/web-extension
+176afd1046789fe3440d5da188a99481eb6fa1b5 refs/heads/exp/tables
+de52d8c44f02a54c128952075e1c17668073d337 refs/heads/feat/redesign-menu
+a8995f2d60eacbbe14d68e6956bd438f1209d94c refs/heads/feature/document-view-slideshow
+8579d58f365f85fc13fdb3ec178667839467afac refs/heads/fix/improve-slides-print
+fba9f0eae80f4f657eb2aa2d7f87ce4fbc872117 refs/heads/main
+399dc5315f9cde4808d6483689fcb0b2ef419e41 refs/heads/redesign-save-as-browser
+c1c6ad4ea6431f929b3536d6d1a424b6b1c813c5 refs/heads/slide-improvements

@@ -1,0 +1,7 @@
+# pack-refs with: peeled fully-peeled sorted 
+8d7e326a90a8ef28e5c97ee6d88ceab02147a03b refs/heads/appconfig
+37ffe709ab829744e50fdcbd4d8b6c29fe366fab refs/heads/doijournal
+69e95924beb3a1a8d6559206ff9497c3d1dfe07b refs/heads/flickrtagindex
+95490b4acecd6f3d11fcba21deb15d6d72af5651 refs/heads/fontfix
+08d7f37d8ea0deda32039248b2d0121b54990221 refs/heads/master
+dc188aff8fe8195552fd9bc95956a43469405150 refs/heads/net10

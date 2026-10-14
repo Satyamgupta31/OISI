@@ -1,0 +1,26 @@
+# pack-refs with: peeled fully-peeled sorted 
+15f4b5388a1cd1e257c8781f7c7e830d7416427b refs/heads/GeorgianaElena-patch-1
+7dbfed187d4d95a446433cb322565a684de57160 refs/heads/add-opencost
+79ee3fd35c975e0f62a9b3d280dc18d8910765e7 refs/heads/add-opencost-to-support
+3004aca1eefe19a67024652dc8cee9069939ba51 refs/heads/agoose77/feat-again-add-initcontainer-climaterisk
+1de6a6ab5657086f841adf3874555d9207e8cd87 refs/heads/agoose77/fix-victor-gpu-label
+aa943735b7d3cae79ed26581aa1a51fa865d4781 refs/heads/billing-gcp
+fc16ffb4b127be126dccf7717928f5e3e030b4f3 refs/heads/bump-helm-deps/binderhub/POMd
+5bda636e6fec8915dc1862a7596e8a2c4958aef0 refs/heads/bump-helm-deps/binderhub/dnpw
+5cbedca0b6464b6ba8189c83d1b9e58bd4e5a9c7 refs/heads/bump-helm-deps/support/GMJI
+398b4b227167336c044e513275b606ed95fadb27 refs/heads/bump-helm-deps/support/yGZJ
+b56bed6b9d2faff5da167fc7ccc369f1a72a9fbf refs/heads/catalystproject
+0379638d5575c4cf89540e648f79a72a3f6e751c refs/heads/climatematch-pangeo-jupyterlab-3
+65f5686c038a63c344e412ab9194002a36e6f833 refs/heads/copilot/fix-cloudbank-gpu-demo-gcp
+6831f63f33bc271bfbb4abfc1a17416eab1a4632 refs/heads/dependabot/pip/helm-charts/images/hub/jupyterhub-usage-quotas-0.2.1
+0911509386c346a8627317b97c18cfa76c46c2d9 refs/heads/deployer-cluster-prometheus-query
+4cbe17523a8d5ae32a0d5c9c8004d784b6ebbb86 refs/heads/github/default
+283e45617069bf7e976a7caacb3d5d2fb00ae2e2 refs/heads/main
+157751956051dcbb45ec68ec16ff233c5f0cd1cf refs/heads/maint-remove-csh-workflow
+a8b4322ee761525fae2bc90744842d6bc4d527b7 refs/heads/nh20250807
+d400fa0da3e29753260a507d81ecd476de2b9ace refs/heads/placeholders/scale-2i2c-staging-0-5e195119b32039089e31e608eb9800e5e8494d52
+249f0ebdc494f719903210375643763cc5649f0a refs/heads/reports
+4bc72e292ab1ebe2240338cd2069d00f55c63866 refs/heads/revert-7024-temp-bump-utoronto-high-mem
+beb316fb6f4b2bae5ef18e142ec5081592b9ea50 refs/heads/revert-8476-earthscope-more-instance-types
+fd112384e7fbff71a589f020e9f53791c5817e6a refs/heads/revert-8878-feat-test-ganesha-qos-staging
+cbad3de1f4d209e2ae079c7967e7b588189cd504 refs/heads/update_projectpythia

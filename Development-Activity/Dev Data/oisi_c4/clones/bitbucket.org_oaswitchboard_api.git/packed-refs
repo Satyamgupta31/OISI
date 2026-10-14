@@ -1,0 +1,71 @@
+# pack-refs with: peeled fully-peeled sorted 
+4fc74ba601564d7d26ee4a177d3cb652fd2ef920 refs/heads/#sprint-5
+7259013b37f3c105fe247057030ef8d66ddf6197 refs/heads/address-id-check
+ab691e4ad64387c8538feab7c147efa0e23a9d17 refs/heads/bugfix/messages_are_not_sent
+89ead36e3c04a75612b587a079b9e716ce2b7fe7 refs/heads/bugfix/slow-sql-queries
+4f5f91875e6bf248f25bbab2575fd3945403df96 refs/heads/bugfix/syntax-error
+bd7df043e09420650f4e212d7538b1bcaa50ce06 refs/heads/develop
+d32236d9dea9901e3a21cddfcc7d6d3ce91b09b6 refs/heads/export-bugfix
+e1304d12e1fef4f6d55b14408b5aacf6bce46fa7 refs/heads/feature/22609/search-function-in-account-iopp-has-a-flaw
+99badcf48849db4703c0277a5e5b4ae86b179202 refs/heads/feature/bcc-messages
+b9375c61fb7a2848bf53d61a25b28b25dfa3ec75 refs/heads/feature/connector-refactoring
+0d5a1fbe59570af861c05023c5d0eb54a4b9feeb refs/heads/feature/connectors-migrate
+00d4ddd64b694115092b4e0243275dc11b91474b refs/heads/feature/connectors-v2
+870f2c72a1d44d48ee0f4050285c7edff3eae532 refs/heads/feature/custom-routing
+2cb4502a3ba200b02400c3add627ddd0b30edc26 refs/heads/feature/dlq-integration
+4696e938dff8d5a5a69d7beb92e2d3726c0180df refs/heads/feature/export-statemachine
+da80e687c6159efed9aa91140037584da3ba34df refs/heads/feature/extend-feedback-functionality
+c2b5579066e63f8b140136034c8370628d69a8cd refs/heads/feature/filters-and-search
+e7bcfba61278e05c87c92c85241006468a286c15 refs/heads/feature/ojs-connector
+ef9591882c2ca941d5555414e6b6b8561c2a736e refs/heads/feature/private-datastore
+7996976783886f7b42304c3f15d89de715e930e0 refs/heads/feature/refactoring-reports
+ef6d1de0b7929506fdf00eafda3a2619b7072dd0 refs/heads/feature/report-new-style
+6c281854f97ca8bfe137f656ecf8c4de565611df refs/heads/feature/ror-timeout
+f4fb498d56799cdce6301304f468d271d3f5f338 refs/heads/feature/sprint-6
+fe28c630e0df089a3e66d7a5db090f516e8c954f refs/heads/feature/sprint-7
+06d5f1177bb8771abb2c22385903a9719d6f87d5 refs/heads/feature/statistics-fix
+0ee35b0115ebf8fcffb0992e4acb3568c1cd9597 refs/heads/feature/support
+a74e278136dbece85ac52990e4a6981a50db2de4 refs/heads/feature/test-1-2022
+07603066bbd781dac98f5f4dbf88136373a105ae refs/heads/feature/tests-2-2021
+18035194a74692cbf9573da116d498d899f77b56 refs/heads/feature/v2-updates
+ae1cfafe00c307599d2d69866c27b88ce6e07b2d refs/heads/feature/webhooks-chorus
+1b6565731705778a4609a7872652df7d83f6d3e8 refs/heads/features/redesign-dispatch
+0b70c95fbd3790d127441ac1592ab8acbc0e2f58 refs/heads/fix-funders-column-in-report
+35e467d746366b189943e10532608ac1f5833464 refs/heads/fix/e2-message
+9e21614ac9c4f47e93f902d2812eee6b7c0fafcb refs/heads/fix/reports-xml-29-04-2024
+8426601c201cc92b140e4e16672199bad8b52ecc refs/heads/master
+9b93f9cfab2f259be4ed9ad6c04fad832991b66e refs/heads/master-v1
+7f46485afb4a7ae86ac7ea5d166d1a988dd18211 refs/heads/master-v2
+a056ad81eba3da27dfe6c658624cfd12408aaec5 refs/heads/release/2020-10-01
+091fe900cffa4f9cfd2c77e59f290258267018dd refs/heads/release/20211203
+65a3621d129c2a5ebff19af1033a1c576f511e65 refs/heads/test/webhook
+1357172179eea516233de0c8afb8200311fb0b50 refs/tags/1.0.0
+^b2d8a21925b22adf9c087fc9c5825bb4a9591384
+091fe900cffa4f9cfd2c77e59f290258267018dd refs/tags/1.2.0
+d3fbaed25df0b90ce68eae8616109a6f5025cc0b refs/tags/1.2.1
+f7c90e0726faef20234e9de5ac11de6ea56263eb refs/tags/APS-1.0.1
+^aea869a2297dd7bbfda15ba3eb7429468752759a
+78abac076ae26d53a1db7e9f3fef696578dbb7c6 refs/tags/APS-1.0.2
+16221c6d4357ea85590e5e63ce45c728a08117b0 refs/tags/AboutScience-1.0.2
+78abac076ae26d53a1db7e9f3fef696578dbb7c6 refs/tags/CUP-1.0.1
+f2d71314b4170045d7ad2f8d28f307f209d5c28b refs/tags/MTP-2021-10-25-1
+18e4277350067e00ae7fefbfcb39619b2732ae61 refs/tags/OASB-1.0.3
+^dea98c689d849e7cdf339da59364e4ce25d1b3c2
+5e3fc962733d685eefa3679a0da4d70e88912e4d refs/tags/OASB-1.0.4
+^65582a34a826327089bc8c53147943cd125a0d24
+2149c709894e3081d3c602620b33d87b7015dd41 refs/tags/OASB-1.0.5
+^0acd63b92635e3eb92df49588a3f889a2ece42ee
+4e62db585bee13e2af86950e56b51838bd6e3a10 refs/tags/OASB-1.0.6
+78abac076ae26d53a1db7e9f3fef696578dbb7c6 refs/tags/OUP-1.0.1
+24d84a7b8bc1f5b2206d3d97052483ee563b9d06 refs/tags/Pre-release-20220208
+^3e0b54967e04f2e16ca7cf2957f1d1706b257d71
+4ac4cdc3ddfee470c968e1f2ccd45311b895163f refs/tags/RSC-1.0.0
+^5d3571fc1c812d49565929fff029c1ca998c5767
+6e20390e2efcd797787267353e74f72f1afb2562 refs/tags/RSC-1.0.1
+78abac076ae26d53a1db7e9f3fef696578dbb7c6 refs/tags/RUP-1.0.1
+748905d4adec157ab6d9454c1b8924f58aea528e refs/tags/TRS-1.0.2
+^aea869a2297dd7bbfda15ba3eb7429468752759a
+82fac4ac5bc1f0f7d392b04facddc49438596a61 refs/tags/sprint-1-2021
+^933334ad5a6c3ad2e7230567c7cd1751e0f64b7c
+b6b80c95f96fdff4bb1d4e3f839063edf965e083 refs/tags/sprint-4
+^fe810ec7e20c730a9fb269a6dabe12da98dd6351

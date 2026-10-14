@@ -1,0 +1,72 @@
+# pack-refs with: peeled fully-peeled sorted 
+d4d5dd28adf66cac9d0207021914df0ed5d15717 refs/heads/ARXIVCE-1311-banner-adjustment
+5f40da6f0a50c067489bc76a527d26092230a574 refs/heads/ARXIVCE-2718-scheme-https
+6b305e5af429518ba276cd43c03dd4e047fb5df5 refs/heads/ARXIVCE-3884-opt-in-banner-option
+d80969a64f66bcdcdfb3b68e2ab4365ef5a9b5f2 refs/heads/ARXIVCE-3884-opt-in-modal-option
+45b748451ac511251c2cd6c41744237577c0e7ba refs/heads/ARXIVCE-4383-spinout-header-footer
+fd9155256ec8103364382bbd1bb94d9a4117e5ab refs/heads/ARXIVCE-4501-brand-templates
+171583f0e2569b8d70429d4158aab179949d8a44 refs/heads/ARXIVCE-4548
+5f068484fd8bbdbd111cd4b925cb8fb5bb95900d refs/heads/ARXIVCE-587-toc-sections
+5eb3829b2a754663fca81c718b256aec9fe4a1d3 refs/heads/ARXIVCE-599-semantic-scholar
+a069394e9a8ba60c23cc60d5e928e1619bba40dc refs/heads/ARXIVCE-735-ps-on-abs
+717b8866f9dce23942a6e250492486059c181d5d refs/heads/backfill-by-latexml-oxide
+00796ab6cd41b2a50716cbef24e8895b9581f761 refs/heads/bdc34/arxivce-1336-integ-test
+d12e5aeaa5c1ef5d936888bd98d19159d1c226bf refs/heads/bdc34/arxivce-1639-db-rollback
+712a9d6a183d15f758605ce7fb3ece87b02404d2 refs/heads/bdc34/arxivce-4328
+5b0e999311312f1dad38de4a1501ef5a6cad1d10 refs/heads/billing-labels
+c65113033e0717d6d210bedf7d9a3568052b51c0 refs/heads/claude-md
+4a50ba9a5dafec5a9a165e4396b566ab094632d9 refs/heads/contain-bib-cite-modal-close
+24a55b1183a28e17cad4a8cd8839a74531b24419 refs/heads/dependabot/pip/aiohttp-3.10.11
+732c3b6f14d6686f348e9c999b4804e40fcbdae8 refs/heads/dependabot/pip/script/sync_prod_to_gcp/jinja2-3.1.5
+7efb812138c20405b6173b6d48e1b73d5b4b7312 refs/heads/develop
+7697daec40b93d858ca43a18b53e50f656840653 refs/heads/fastly-whole-object-caching
+db244c2b7f36df3c19b7382efd1104690bd629fa refs/heads/master
+901108a0bb6dec248271d4d16765d166bb8fb387 refs/heads/opt-in-tracking-cookie
+9a686b2655b173a332929285c94d2bae5c3587dd refs/heads/pr-deployments
+4a9d43123b727d312b804ef76754d7f26ce91fa8 refs/heads/sync-script-changes
+3da9c5c8330676bf12153db6b822e76dc8f16fcf refs/heads/sync-support-cache-purge
+fb5c0933f05b3d0b78e13928c0482e417a6ebfa0 refs/tags/0.1
+^7f7f7e1c377613e4da83b4c7fee2b1dae8811189
+f6750e0928489e784a5c98dca4b97c65d387c9a2 refs/tags/0.1.1
+^2bbf23efad7b428bf47a65bfa997dad1f09154bd
+638870518ff222853cc7872c87b30a5e5df71157 refs/tags/0.1.2
+^38affb49baf7a3754f546855afd08d486418ad51
+b76a7e260c6b9066327bf53817524531c0ef280a refs/tags/0.1.3
+939e62e1d7abd4288402941c75cdff4829c0971a refs/tags/0.2.1
+^0a914a86777e9bee8a6ea20b7c73184d08800d53
+b20586670114c48c2f9c89cb2e6928b0a26967a7 refs/tags/0.2.2
+^1c87648fc3cf4ec955b088a13f472a3af779343e
+31cf50c09c83a1a839a5a8b9d49f72988b2a207b refs/tags/0.2.3
+^943db5846f07f3ced261d2ba0b40f2e7473b38ac
+f3894701ac2a5785ea722c97c24d7d15586b0571 refs/tags/0.2.4
+^714e8f8343a1a512ab0e9063605447e99d40958c
+cded62bd91aaecc629b29931d522280d959781b6 refs/tags/0.2.5
+^1490f9c1600dd9c4017347a85c8a160d1fcecfdc
+ea7a3fbbd64e23fda566445a833c07402210e092 refs/tags/0.2.6
+^420b2a14df75713c13b088bda5951dd9fabdb5b8
+621d09aa0b302a50624c365b0947f56705e99c2d refs/tags/0.2.7
+^4abd9b41042ab2a6f83f4564ad4035f20e55b700
+0f4135dbe8e879b137146122e161d0e038ae0eea refs/tags/0.2.8
+^3c1de334d6ecf782cb8e74961140afb9b9d43e75
+0471a2fbc96ad38f3ccf8945e755a0a362bf269c refs/tags/0.2.9
+^9c74fe2c1d3d0c42c25ccc4c8f7a10ee28293f81
+afc881b82134a4f381962aaefa9fce271f283416 refs/tags/0.2.9-post1
+^84982607cf20c4ea10ec6f7d3e5b4a1780b60cc5
+cd588bd6b6714756cab0804b9fbd5efc1a344931 refs/tags/0.3.0
+^ea6f693a30bf7e262ae1b8c266ca97c95b9341da
+5c5e88844fbce5b352a75eafa8abb7d48ebb01b1 refs/tags/0.3.1
+^96c98feccfe6148eb5ce5142e6177ceb7a7ed919
+57f430ac06ecfb59ad2a8f12f89c7c68aabd8473 refs/tags/0.3.2
+^dcd7c701e9ea2fe4c7259f197218d00fbd4deab9
+92e33805fe4e985b1770bae811e50c596902c208 refs/tags/0.3.2.5
+^bb2b1c72fb4597cea7ca30b9744576c357f28815
+19456617f9100c27ce1bb94f879971854c409e3b refs/tags/0.3.2.7
+^628db3ae99950072815ed5d3cab32618397608d5
+526aeab5f84fdc1f25a29bc0a4a09448eeebbab7 refs/tags/0.3.2.8
+^12f424523eb6724def02009ddf7b1727fdace660
+b3439ddebc7a0467b998e0a39e76e207714dcfb9 refs/tags/0.3.3
+^60a9ac8d04a86b9ecf67d865450189d0cf7e0317
+a80a2d78b7978704c999a2396fccfa1574cfea12 refs/tags/0.3.4
+^20824bf3f6e6c518bdd5543a715520c3b38fc854
+8dd3b894b573da8849ac1756a11de05231b67494 refs/tags/0.4.1dev1
+30ceb001c26dc515a53f6b046dd2e3b9701cfeeb refs/tags/1.0.0

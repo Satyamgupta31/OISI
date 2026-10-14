@@ -1,0 +1,17 @@
+oisi_id,infrastructure,source,m8_issue_response_rate,m10_issue_close90_rate,notes
+C4-013,Biodiversity Heritage Library,Internal tracker (Gemini) - not public,,,fill from external tracker or leave blank
+C4-015,BitCurator Environment,NONE on this repo; BitCurator uses bitcurator-distro / Google group,,,fill from external tracker or leave blank
+C4-026,Crossref Metadata Retrieval,GitLab (same project),,,fill from external tracker or leave blank
+C4-034,DLCM Backend,GitLab (same project),,,fill from external tracker or leave blank
+C4-035,DLCM Portal,GitLab (same project),,,fill from external tracker or leave blank
+C4-044,Érudit,GitLab (gitlab.erudit.org) - GitHub copy is a mirror,,,fill from external tracker or leave blank
+C4-051,GeoServer,Jira (osgeo-org.atlassian.net/projects/GEOS),,,fill from external tracker or leave blank
+C4-068,MyCoRe,NONE on GitHub (no Issues tab) - external tracker not found,,,fill from external tracker or leave blank
+C4-070,OA.Report,NONE (Issues and PRs disabled),,,fill from external tracker or leave blank
+C4-071,OA Switchboard,Bitbucket (verify issues enabled),,,fill from external tracker or leave blank
+C4-073,OpenAIRE Graph,Gitea (same repo),,,fill from external tracker or leave blank
+C4-074,OpenAlex,NONE on GitHub (elastic-api has no Issues tab); support via OpenAlex help desk,,,fill from external tracker or leave blank
+C4-084,O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (The Brazilian Open Access Publications and Scientific Data Portal) (Oasisbr),NONE (no Issues tab),,,fill from external tracker or leave blank
+C4-087,Peer Community In,NONE (no Issues tab),,,fill from external tracker or leave blank
+C4-102,Synapse,Jira (sagebionetworks.jira.com),,,fill from external tracker or leave blank
+C4-110,VuFind®,Jira (vufind.org/jira),,,fill from external tracker or leave blank

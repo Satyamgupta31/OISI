@@ -1,0 +1,7 @@
+# pack-refs with: peeled fully-peeled sorted 
+5ae90bbcd31baf872bc5f1e8a450c788062dad7c refs/heads/Cost_types_glossary
+41f3ce50d82a554ea7d1707d849b28f5156990a2 refs/heads/Internal_format
+d4b68d790c0f8a8e4eb47a77a315148648896265 refs/heads/bschweighofer-update-cost-types
+dc710b0a5039e98b1cd8e0ef31627e39f7ba46b4 refs/heads/bschweighofer-update-faqs-1
+9dcd161f0d3ddb75eea26d793b9abf75d5bb1fb3 refs/heads/documentation_update_vat
+6fe4b4c5b6aca9b78f45e9637bc2f3a5a11aeda4 refs/heads/main

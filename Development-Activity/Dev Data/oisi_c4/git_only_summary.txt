@@ -1,0 +1,26 @@
+Repos analysed: 90; metrics used: m1_commits, m2_active_weeks, m3_recency, m4_releases, m5_contributors, m6_effective_contributors, m7_retention
+
+Rank stability vs proposed weights (Spearman rho; median / max absolute rank shift):
+  equal_metrics                    rho=0.993  median shift=1.0  max shift=9.0
+  equal_dimensions                 rho=0.992  median shift=2.0  max shift=10.0
+  drop_Continuity                  rho=0.948  median shift=5.0  max shift=21.0
+  drop_Contributors                rho=0.935  median shift=6.0  max shift=29.5
+  drop_m1_commits                  rho=0.996  median shift=1.0  max shift=8.0
+  drop_m2_active_weeks             rho=0.984  median shift=2.0  max shift=12.0
+  drop_m3_recency                  rho=1.000  median shift=0.0  max shift=3.5
+  drop_m4_releases                 rho=0.994  median shift=1.0  max shift=13.0
+  drop_m5_contributors             rho=0.994  median shift=2.0  max shift=8.0
+  drop_m6_effective_contributors   rho=0.990  median shift=2.0  max shift=15.0
+  drop_m7_retention                rho=0.998  median shift=0.0  max shift=6.0
+  top-10 overlap proposed vs equal_metrics: 10/10
+  top-10 overlap proposed vs equal_dimensions: 10/10
+
+Highly correlated metric pairs (|rho| >= 0.7):
+  m1_commits ~ m2_active_weeks: 0.92
+  m5_contributors ~ m6_effective_contributors: 0.919
+  m5_contributors ~ m7_retention: 0.886
+  m2_active_weeks ~ m7_retention: 0.857
+  m6_effective_contributors ~ m7_retention: 0.855
+  m1_commits ~ m7_retention: 0.76
+  m2_active_weeks ~ m5_contributors: 0.757
+  m2_active_weeks ~ m6_effective_contributors: 0.701

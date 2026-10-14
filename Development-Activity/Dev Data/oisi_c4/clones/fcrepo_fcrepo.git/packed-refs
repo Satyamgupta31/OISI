@@ -1,0 +1,255 @@
+# pack-refs with: peeled fully-peeled sorted 
+1802a492e7a4bef96be46a0a87ead1272ca65caf refs/heads/4.6-maintenance
+84e1fe2a7cfe24eba0f7e070c5c85ef517baf23a refs/heads/4.6.2-RC
+b6830dfc90f8acf0830a990de17020bf34fc1729 refs/heads/4.7-maintenance
+78ae5c14afb1b99133ae4f547ccefc933f6705e4 refs/heads/4.7.2-RC
+006ef60050e085f8684a8ac32e9f7913cb25a8da refs/heads/4.7.3-RC
+d04d71fc87a534b14b8400ab3728d53370d86f37 refs/heads/4.7.3-maintenance
+f02106d463a9ac83b9ff82676fc6140c9eac9aaf refs/heads/5.0.x-maintenance
+f3a155a4900c97e658cf265f1efc610bd997b8ef refs/heads/5.1.2-RC
+f3a155a4900c97e658cf265f1efc610bd997b8ef refs/heads/5.1.2-RC-1
+6e42addc5b83a0641c1adeee319e88603f646e45 refs/heads/5.1.2-RC-2
+a8788c3ffe0e526dde757eae0f17ce1b956a02f1 refs/heads/5.1.x-maintenance
+9b3a29132c6c5165f609c65705c630bb66f18c07 refs/heads/6.4.0-maintenance
+fd9fd74d618728f2ff72fdbbc166dd6e4ef47de8 refs/heads/6.5-maintenance
+6d5a1bb410681ab11e01a7a87688bd4fd27c7957 refs/heads/6.5.1
+e8f321f2a8f52cb306d7701ea088ef5ae74159df refs/heads/6.5.1-RC
+4932ac004068f43d62c536a83c7464ed8dfd012e refs/heads/6.5.1-RC2
+8a0e82db6f89ae0a7b05d933ad27a9f4f102b5f4 refs/heads/6.5.1-RC3
+080846c951785ac8a066167f47e031605a8141c0 refs/heads/6.5.1-queries-backport
+e524c31a8fcae8da6ca30f1293ae17fbbd645041 refs/heads/6.5.1-whikloj-simple-search-queries
+ac3cb5d7fa6525670a0df4ff20c1385abb514a48 refs/heads/DEV
+fdf87837889d9f849caa468dee0ddbb5f12e5191 refs/heads/FCREPO-4018-jena-compact
+6e31b6fc4214b5c0d7c7b281203ac7f36ab14b36 refs/heads/Surfrdan-patch-1
+a4afa25e64ff96324a5302590ec15ea41da6b2cf refs/heads/awoods-test
+06ec1ffb4c991e6b63b0667a0997f90d7a8453ec refs/heads/dependabot/github_actions/github-actions-1758a94056
+6eb3e2c012fd34fc042aee33718cd5b7eae7381f refs/heads/dependabot/maven/grizzly.version-5.0.2
+e6409201d9abaf5bfd378d2f33ba51518367bfb7 refs/heads/dependabot/maven/hk2.version-4.0.2
+d0b3b3ab7052c77d4b5de383d01c7c69342c7c6a refs/heads/dependabot/maven/jena.version-6.2.0
+e9b555c7e86a5b8291ae93f4720d4258fb315652 refs/heads/dependabot/maven/jersey.version-4.0.2
+60817c96ff43c3f06b28f5fb4b171b89f84d7f51 refs/heads/dependabot/maven/maven-minor-and-patch-4b82ff8251
+b9c329d09d6045931b761384f0759c62fd08f26d refs/heads/dependabot/maven/org.codehaus.mojo-buildnumber-maven-plugin-3.3.1
+5ad66cb79227df5f92899ed0cb8c16bf75a18c36 refs/heads/deploy-test
+d7dff2c2864697e62455c70694717e7589e28697 refs/heads/expanded-json-ld-default
+5b99ccabf96ea78215df6a4bc3bc62143ae48758 refs/heads/fcrepo-3964
+a663d223f9b3382f07b6fd7d92875815ad12a231 refs/heads/fcrepo-3983
+fb6a9409d6361d23e5743beddfec88991e2d2e10 refs/heads/fcrepo-4035
+2670df7fce07b866fdaa5ea2e4dc2f99aeba1b2a refs/heads/fcrepo-4106
+7dc5ffcdabaf0ffbc650d54f9acbbe68652c0d1e refs/heads/fcrepo-6.5.1-newrelic
+8776fc50fdd71fc1e033b275d06d32803eaf11ab refs/heads/fcrepo4-5.1.0
+f2d6adf4f7aed573e24e2199a2ac12a9e0ed14a3 refs/heads/feature/fcrepo7
+19a320a2c0a133f60c9057392444c075dad8468d refs/heads/fix-broken-windows-build
+ea9e303f57a308d29c520c8fb3993226cd0ef93d refs/heads/gh-pages
+f152b17311ff1e2f7706dfc44e1173448ae5a9c0 refs/heads/lastmod-noref
+c2d13bdf89cad2f3e863a5078714610dd45db2b5 refs/heads/main
+37fd2184850573d75e3a44433aa01eaf4d9c5217 refs/heads/ocfl-temp
+9be2610a941889c78e1cefcefc43ce4b2e763537 refs/heads/release-7.0.0-beta1
+90fbde1262061751e0e5a5dea1e2a62c7811a015 refs/heads/rwp-mode-queries
+c93c1eed2e67f42d96043569d24a6034d7ead715 refs/heads/suggestionForlsitu
+e14950b303e8ac5c0cd6d4ed950f5c5bd1987db7 refs/heads/unordered-collections
+7a1753b19f3f4fbef3f16e93d57bfd418588bf7f refs/heads/update-5.x-spring
+51dadd76f188fe0317f505fda41144eaf18e4436 refs/heads/update-modeshape-5.5.1
+1bddc7f5f2e01b2b6e2dd15a74ee25481d4bfdf8 refs/heads/user-modifiable-checksum
+2df258decc88dd563bfc7e9cc874e9da98d2b25c refs/tags/4.2.1-SNAPSHOT
+59defcbfffa042fa1ff279018d45c3bbfc88bcf4 refs/tags/4.3.1-SNAPSHOT
+09a2d527f42e981f18e5deb10af3865d3889f630 refs/tags/4.7.5-umd-1.1
+^496ea711d60d8cdedb5df952e73efdfbcf52822d
+80afcda913d95a9160e470941dd94e9b6414a895 refs/tags/7.0.0-alpha1
+^1adf7e7e6e148453beb8412f159335ea7a8fdeda
+2c3b224eecc6eb93b637964b1f59cdb7a36ef373 refs/tags/fcrepo-4.0.0
+^bb20d614deb341010b374d684daaae62d64f243e
+0f27b71cd7eed9101b8135d9564d139d726eb436 refs/tags/fcrepo-4.0.0-RC
+^c9bf0a88ce9c157ebbdfc671cd240b6b0692c82c
+7edb947a9cceb91b83b49145d740e752b6f031d7 refs/tags/fcrepo-4.0.0-alpha-1
+^2fee1f0818221c603934ff7a7f0e9d075d350cd9
+25d44aebc7c52a398be8f4037438c6167240d171 refs/tags/fcrepo-4.0.0-alpha-2
+^938eb0de62f95572154f33326f98eb97293feb5c
+d49af01981c648de1545298f85f94d8cf8d522f5 refs/tags/fcrepo-4.0.0-alpha-3
+^b4b76777087ea0dc4e89b73a7eec00fb51697dbe
+36f8148fc5734adad3bb3e6c8a657a33408507b0 refs/tags/fcrepo-4.0.0-alpha-4
+^3625af24056647f91d2903ac6b6e2138b5ab90cf
+6c0cff3bbd4cfc12c4f032fd69edd6ba36b0dba2 refs/tags/fcrepo-4.0.0-alpha-5
+^c9c8d6aa6d10e06715e96c58bfe233ab3fc3d8c6
+8a924130031473b839df066caf6279a8927d8a97 refs/tags/fcrepo-4.0.0-alpha-install-fest
+80907ce7df41be0fe231d2351bf6fb47bb35b3ee refs/tags/fcrepo-4.0.0-beta-01
+^de379de513361e8b535cb9e20f0f416a39c306ac
+2c4fae8e8fbaf12a0445551118e851a66e93cba9 refs/tags/fcrepo-4.0.0-beta-02
+^ed0d3216b91922dfcd0768e9f39a01b6e8c62044
+d3d74ff2cb2f12018cbd47716ac1341288970bf3 refs/tags/fcrepo-4.0.0-beta-03
+^a204448a0ae77be6be8910f06f183a36431d8ccb
+6d3e6e0d9567fd37d5394b183507f41bba54b224 refs/tags/fcrepo-4.0.0-beta-04
+^c77536555284687660eace570d8b53ab3fd9cf35
+9d8a5ad9a920ac54e9e6727b5ff83cbed4cb22fc refs/tags/fcrepo-4.0.0-scape
+0740f11cbb13f4797c0ecfc7cea3f4a86368ca29 refs/tags/fcrepo-4.1.0
+^4a7d6f9ee57cf6782dc2aa45645f9b18dc8e8c19
+b2a86ef954c5d5c26eb619e208f7907bc6c82cce refs/tags/fcrepo-4.1.1
+^7084510ac099acbd48879bec96e486bd67ff0de1
+c79ee8e5fab8e4bce4a42db0633c52ae04758751 refs/tags/fcrepo-4.1.1-audit.0
+^e47c6701255fd234aeb3c5b0b64a117c004cd7b2
+2c8929d1758501fd137d7506ffceefd61fe83e9f refs/tags/fcrepo-4.1.1-audit.1
+^02e56c8e3391f7c4173bca22b6893d141617b3b5
+4dc1661e589d52d77875bfe6bf21010ca268d39b refs/tags/fcrepo-4.1.1-audit.2
+^31e068b35fee4bd3acddbb03e0a4d0f0570bcfa2
+6a4ae132c266d32b4cd77670514a730be61bc5f5 refs/tags/fcrepo-4.2.0
+^4a3673c29f449a241fa7e0fadbc1e6050ae53182
+2df258decc88dd563bfc7e9cc874e9da98d2b25c refs/tags/fcrepo-4.2.1-SNAPSHOT
+2b96432b2013bef9879f9cd143be7458ac427e94 refs/tags/fcrepo-4.3.0
+^5c0e09d189e04301e80cca7e7d9c5f4cda9796fe
+59defcbfffa042fa1ff279018d45c3bbfc88bcf4 refs/tags/fcrepo-4.3.1-SNAPSHOT
+38f9fdbcbe4e7e8b651f98f3d0716c813776a4d7 refs/tags/fcrepo-4.3.1-webac.1
+9bf0c3193c1a905754f495c2ca7263a6b599c3ae refs/tags/fcrepo-4.4.0
+^f6d33b32dfc67a536223fcf3ffcda167e94b24f2
+3416ca42a8df51ed65f2c80a66d57917d3b240d9 refs/tags/fcrepo-4.5.0
+^d81003bf02c5dc0fb0f7dc254f2f44a259767e15
+f6a1adc191d64afe1fe5ad7898b688b35aa1837a refs/tags/fcrepo-4.5.0-RC-1
+^de79c1e09a76132ae964921adc0086ba06229816
+341453862aa7a8350d1bef23df59203dcf405b4e refs/tags/fcrepo-4.5.1
+^8603e815e860b70ab7dccc9ca34373d2859410eb
+33ea9fcaf840f0b574e6543a8947b85e6b77d10e refs/tags/fcrepo-4.5.1-RC-1
+^aeda6643bfe34bca369397ef9a24825dc99093fc
+e1fe593407b842be6e97fde3957ed24779022f2d refs/tags/fcrepo-4.5.1-RC-2
+^f016047386f25068fcd59da1d015fbe6fad3d413
+8e582d4f27fbce4f22954cdcd574fd842ef2bb2e refs/tags/fcrepo-4.5.1-RC-3
+^89d60e13a1d355dcdeb7bef09e218f4631796f57
+b73f27084fa164ae25cde0c4e6e75dcd787a4ef9 refs/tags/fcrepo-4.5.1-SNAPSHOT
+b08dc4f0ddf4a56c418672e6f5c670e42f2cb0d0 refs/tags/fcrepo-4.5.2-RC-1
+^64a5159b0f41012de328a44f198d88430f1a5295
+62842e7e432d5a522228b24df8d98a1fcc87a226 refs/tags/fcrepo-4.6.0
+^fbe8e38da6b6e161fc8c33a108e623e80239e866
+6f3023c7dc4a53ecc1b32cc00f80623e4c460926 refs/tags/fcrepo-4.6.0-RC-1
+^ac3cb5d7fa6525670a0df4ff20c1385abb514a48
+9745fc5e258c3187931ce65b0155c239532dab9a refs/tags/fcrepo-4.6.0-RC-2
+^a325f7989a472fda4cb3ba3356b86d97973f62d2
+465b20514aa50372022d07ac0437d65d0913b53e refs/tags/fcrepo-4.6.0-RC-4
+^ee2bd468fa08f03236031491bfd66e0138556541
+af3315f8c68773f04420f22f4cacde92831fdf4d refs/tags/fcrepo-4.6.1
+^c278285ad1d8e80a757ca1dc115f6566c63d0c0c
+da0aabc3dcb2d666b219e76929857c49ff3dd876 refs/tags/fcrepo-4.6.1-RC-1
+^2984e21369366f82e4a08bd57e72b072c8d7289e
+1396de55963b16c43fdbd9cb53d98db4e2c4faea refs/tags/fcrepo-4.6.1-RC-2
+^268b4847fa5ea58efa5eccaa51e7245bb7491757
+683d0c3e3d3ceddc7b8a9dfae2bf2e0b1daab692 refs/tags/fcrepo-4.6.2
+^40d8c3d4c6e01a6d9574eaf29591783d4bfcd6b4
+3121dce2b7f0dc11d5cbf94050e6237ba70d798a refs/tags/fcrepo-4.6.2-RC-1
+^84e1fe2a7cfe24eba0f7e070c5c85ef517baf23a
+595c661ce3f65ee22b953ee4a2d39de10bf41b57 refs/tags/fcrepo-4.7.0
+^b6fb759e447af772498313d730afc22f37f8f1c9
+0bd78952385c3bb3140752cc9a1e2f1bdab19173 refs/tags/fcrepo-4.7.0-RC-1
+^edcd18a9826f288038239f332c9c5c2b14e75c75
+d51cad1f389fae53c782c39655a749ffdaac663a refs/tags/fcrepo-4.7.0-RC-2
+^9c4394a364defcecce4e06f75f56bb94969ca08e
+b896008404515ed5643b38275ea4f684c21243b6 refs/tags/fcrepo-4.7.1
+^546f5a5a3fb7818f3f472ac37458eaef901d22ea
+01f6464382b4e25bec6361307ac373074966cf0a refs/tags/fcrepo-4.7.1-RC-1
+^4e44f2030d829d78d9874e1ffcdb427b0e6a7c8f
+0717c0b6b52275cbb0d6109a41d48acb6d089b2d refs/tags/fcrepo-4.7.1-RC-2
+^6a0bcda5ed1d3fc93375302091aa20fe80b7bfc3
+e1abc0f72d3f4d23f038f317bfc15a4a6c81cf39 refs/tags/fcrepo-4.7.2
+^d367c487c67d28235a9a1857a9066b2fac89219f
+d2a35af7a4d284c986ff31051cd50ae9d62f585c refs/tags/fcrepo-4.7.2-RC-1
+^78ae5c14afb1b99133ae4f547ccefc933f6705e4
+3215cfc0e03a5dd4cd8cb37986558ec020bec2ce refs/tags/fcrepo-4.7.3
+^057342a951d6f2b576953d9fb7a7807c52117870
+6f1bb95b3e5370d88f5327a09c12000ebb1fb4f4 refs/tags/fcrepo-4.7.3-RC-1
+^006ef60050e085f8684a8ac32e9f7913cb25a8da
+301dde386dd9e645f7707b872385f1552136a972 refs/tags/fcrepo-4.7.4
+^1fe09020eb1da9d565aac4373aa172dc619a0a64
+eaf9d23c957b3ed6651f9bcf077d29cf38ef7a75 refs/tags/fcrepo-4.7.4-RC-1
+^77da0e7c1bd51793ef8dd70d657ed368eb1cc960
+5800ed145966a4d8cc27543c0e5b6d219ffdd176 refs/tags/fcrepo-4.7.4-RC-2
+^433680ac935f812ce111e11059bf22e7343c71a3
+ccd007d1d794631ef7b06ba3280c55756f276387 refs/tags/fcrepo-4.7.4-umd-1.0
+63e0f62a6f977873063184fdb8c2165ceb3fec55 refs/tags/fcrepo-4.7.5
+^5c0c807769bc93b8f25ab0d307871376c752dfa0
+8186b971bd8c30957116962e054c247dcc317132 refs/tags/fcrepo-4.7.5-RC-1
+2fb8f5e6b43c3f3998c81c04a57799634fac97ae refs/tags/fcrepo-4.7.5-RC-2
+4db94c21cfb049c013dae891d18c550d819dd368 refs/tags/fcrepo-4.7.6
+^eb9b81e7e20c7cccb9096ead4aa040507198b9f4
+bec29c365f45be149a95c568f9110a10f53511f2 refs/tags/fcrepo-5.0.0
+^5d7f14e56ce71182409bcbc29c4f2bfff291c64f
+e1e5d5357d5d591ad2c3bbfc43728f8cbbe45b46 refs/tags/fcrepo-5.0.0-RC-1
+^b54bf8aa4aa0a7029a33323b265cedb6243a67fe
+e48662cfb5e6db3795fc70f350c266e476861f02 refs/tags/fcrepo-5.0.0-RC-2
+e0860dffbc110245a2e2a709c9c0b7f11f06a225 refs/tags/fcrepo-5.0.0-RC-3
+f3ce1efbc111f26d612abe4c6401ac5efd2c7c43 refs/tags/fcrepo-5.0.1
+^23a30c28f5926756a0aef0102f8864f99de17947
+c25e454efa9e79fe806c96ab3327b38942d04cf7 refs/tags/fcrepo-5.0.1-RC-1
+3aed63d0dc8abd97697b2f6ff38b518e6efe75c8 refs/tags/fcrepo-5.0.1-RC-2
+7f55ad8ac92671b5c67b049cf3e4328d161fce0c refs/tags/fcrepo-5.0.2
+^0dffe26e9f9032a05ffbba3fb11f83c8f0165893
+3fcc79addbb3b6480c346eb6663f50f87cd3b5e0 refs/tags/fcrepo-5.0.2-RC-1
+^752ef90377073962ec73d254654b6b448bdc7116
+08048c583e4921daf569c7293281a6af5cc39ff4 refs/tags/fcrepo-5.0.2-RC-2
+^f6a2726b7566873d5fcaa353d2f06e9d797cacee
+a77de0a64f3eedfc36e5eec234ea26aea99baaa0 refs/tags/fcrepo-5.1.0
+^7bb1f9fa8a2cc1fde2a7e031c6931bbc1cd47a8a
+577cb16b13cb573d09c4177830654f728638ac58 refs/tags/fcrepo-5.1.0-RC-1
+^1da5307918aafef1dd7a283390dfa7425399c647
+dd939a5e713dd368c7065c702cd47f843f538e0a refs/tags/fcrepo-5.1.0-RC-2
+^eef5288f558d48d70e0a8d2934fe3691d9580587
+c2c5a64d34b82de3e27febe16f6747ea5dc7f1aa refs/tags/fcrepo-5.1.0-RC-3
+^774653134267dd99100b99366b424d1af1824c50
+40fb1ca3e567fda770b0e2f6ba7df8298285b102 refs/tags/fcrepo-5.1.1
+^5bd1420e212f26d41456bc505ebc9567fdb4edc5
+975910f951383f4ee9f3f050eaa07dc7c3f2219d refs/tags/fcrepo-5.1.2
+^93b2ff37a4ebb8ff68dbd64bc1a5915517e659c3
+b7a3a9c5082bd7e0fa6333fbfca12da3367c9e90 refs/tags/fcrepo-5.1.2-RC-1
+^b4554bc2426e3c0a821844a4bd9ec46abcf64537
+f3674e8900e17a3a7facec7926e4c05065a18d03 refs/tags/fcrepo-5.1.2-RC-2
+^404352565396be174d99438a6d34c1bef30cf45b
+adedf973e4a556b70ab9fe9ce1e45083dbf84e39 refs/tags/fcrepo-6.0.0
+^7a797e59abddadc5e16910fe2dbb0cbd2a28f4b0
+212acfc116c76abc9ed650a795798b712aab9d04 refs/tags/fcrepo-6.0.0-RC-1
+^da0c9bcb512b6c8652849b5635f18ef02952b778
+dc82a96cd56fcecc680613ee06e92ccb3df2301e refs/tags/fcrepo-6.0.0-RC-2
+^fb77125c10b71b67feb9e1b74b65171d3f4dda09
+ea173abf937b778f4308447b9d18988310fd6102 refs/tags/fcrepo-6.0.0-alpha-1
+^83ab63a42074cd2c38956d6b2dd2e953d69a354c
+74dd37616022381f89a9f4d254218cd727729d83 refs/tags/fcrepo-6.0.0-alpha-2
+^ab149b9aaf3e0313ad4ecd9ea690b462f49c2202
+5d7ed64865037d063941019a223133b973dfaeae refs/tags/fcrepo-6.0.0-beta-1
+^2ce11957933144494b79c2c994bec6fc99146d9d
+9aa5241ea129096838ab06d757a3894611bdfe3a refs/tags/fcrepo-6.0.0-snapshot-2020-08-17
+3d5c1222a23fba915b4e6f690179539945916508 refs/tags/fcrepo-6.1.0
+^15be304c77f8480c449c1f07dbd3adf77ac498c9
+b35eae8f700550e45ccb6afaed69b9c77a046df5 refs/tags/fcrepo-6.1.1
+^a1ac885a709759533b3c994bfd9b65cd3c4a5850
+bb98820b793c4f303c60380f1b60dbb8c928f7c0 refs/tags/fcrepo-6.2.0
+^bcf755a6604dfff58326aa52cfd343b17fef4e44
+b05ed9400b0d4dc7943beb5f05a36500a820adb8 refs/tags/fcrepo-6.2.0-RC-1
+879f528f473f6c35a528eeea3d6b427623ab3d82 refs/tags/fcrepo-6.2.0-RC-2
+f912d45fc54629c318a7e5eef45f51399f8b0a7b refs/tags/fcrepo-6.3.0
+^73a433f4a7b1c358e3fff664257b51426acb4715
+1d498d35d54d75a99d0880cd9739f8f1691a0ee0 refs/tags/fcrepo-6.3.0-RC-1
+^74b7133da5172b7f42a53721716591e6bfc6e5ca
+50dced6f17229f618b570027d275bce9d921ee2f refs/tags/fcrepo-6.4.0
+^6a13e29dfd5931d3d7d182c841a23763bd8bf7bd
+c08120ddf9138b346d711ef3f6938fe03859be06 refs/tags/fcrepo-6.4.0-RC-1
+^930d2639998a3ae9b2044aa544dcaadd799d8374
+528fd4c4b9af7474909aa9fdf37a13145d8aa1d7 refs/tags/fcrepo-6.4.1
+^dec9494daf127ffca64de40211309b3692dad085
+fdf6dff0fdef8e28c300e8802c78eb1fe3abaca5 refs/tags/fcrepo-6.5.0
+^5e9b34c12b7760c25761780888803eb2cdf4b1ff
+63ffc1b05e3c243ddc5d8141ae5e94e9207f702c refs/tags/fcrepo-6.5.0-RC-1
+fdf6dff0fdef8e28c300e8802c78eb1fe3abaca5 refs/tags/fcrepo-6.5.0-release
+^5e9b34c12b7760c25761780888803eb2cdf4b1ff
+b584de65f7889544c7fab4787f93238f60990b29 refs/tags/fcrepo-6.5.1
+^6d5a1bb410681ab11e01a7a87688bd4fd27c7957
+8d5742da44e8cc39b7c81209b774ab57a40e94b3 refs/tags/fcrepo-6.5.1-RC
+a3f579ee25d18d586875d9caf9f05cd8d39007be refs/tags/fcrepo-6.5.1-RC3
+^0a95b439f771ac040f9e3f93c29b00f0488dec50
+d1a9163d3c5c5f841583cad57623e2a728a4e87e refs/tags/fcrepo-6.5.2
+^de341f0c90109845976c9cab925153cf716f105d
+27f04b1a4ab87a4b953e578ece7084de7d7c0728 refs/tags/fcrepo-7.0.0
+^eee1c4f523acf873f1c428e2b22bdf37ba0d2ce1
+a073d5e8ebcb17d2a5120d9ee8b9765455dd0b91 refs/tags/fcrepo-7.0.0-RC1
+^1c18f29d3ccab4c82a6c11f88ac91d1040c0f048
+9e8e4395d04d9efe765310855d6e593805487915 refs/tags/fcrepo-7.0.0-alpha2
+^d00058f71326d4c354bf60954fdcc562f0dbd59b
+029dcdaaccff3394d07beaab980f186d74735085 refs/tags/fcrepo-7.0.0-beta1
+^9be2610a941889c78e1cefcefc43ce4b2e763537
+102109a8bc85a697f4d73503a4e724fd63304a14 refs/tags/fcrepo4-4.6.0-RC-1
+^ac3cb5d7fa6525670a0df4ff20c1385abb514a48
+1fc2954eae122337a070fa087bd10d5b862b88b7 refs/tags/fcrepo4-4.6.0-RC-3
+^0c3ff7740cc6e4e8e9cd4cd93dc34f6a203b4423
+b9e9512d1e374ae3bc40a5e37dfe09332cd0bc0e refs/tags/fedora-6-demo-1

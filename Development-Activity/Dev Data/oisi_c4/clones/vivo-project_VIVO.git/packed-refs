@@ -1,0 +1,131 @@
+# pack-refs with: peeled fully-peeled sorted 
+bd3ced0f4b22b413c474f6c819976ec62ebdab63 refs/heads/cornell-1.1.1-maint
+96e9f507c5b49bd27600191cc1da6a35a9ff6366 refs/heads/develop
+c5a8f6ddab88b1d91d056ed5c29ce3cecb7dd9fd refs/heads/dynapi
+acf637802d40894279946e25c5879995157685d6 refs/heads/dynapi-1.14
+ddd42442f4b34fe99f590a429941285e7ae1b386 refs/heads/dynapi-1.14.1-snapshot
+fb052e9452cd3990e7a82a9ed4d6d7c5181688f5 refs/heads/feature/findbugs
+cfd0cce33e3871dfbc27f977a7a4dd5758271441 refs/heads/feature/jackson
+d29905cfb6f304ac61876dc5f4055888270db9a2 refs/heads/feature/oaipmh
+ecfc27ade5d4c9134c81bc2060f79ae4fbfc15eb refs/heads/feature/responsiveWilmaTheme
+fc6f2d0124414c74771a5f17fec1e27a02932f80 refs/heads/jena4-upgrade
+83ab8d0bcedc8b6edef0ef99a4bc9c4dd881991d refs/heads/log4j-patch
+c92a818835fce9fc05eeba3e0e7e6b6ac13e393b refs/heads/main
+c743bcb724798aa07870a25ab70615db29a7aca7 refs/heads/maint-rel-0.1
+a918d8d6889607712ea7c7249278945b5b634a3d refs/heads/maint-rel-0.9
+5c3dc18a6bb41a10be520bf837e644b57a56ecd5 refs/heads/maint-rel-1.0
+25c49ac95ef0d185583aa961123be64b9c814fa2 refs/heads/maint-rel-1.1
+466afa78410ce3c4d52e48a4232da9b159607ec6 refs/heads/maint-rel-1.2
+1ebfbecb258303782cebd0696fd1df8fac976feb refs/heads/maint-rel-1.2.1
+7234a16984d528395d746a9417b6eeb772bfafa9 refs/heads/maint-rel-1.3
+3aa6403a36ef36fe69fb1babaee5e0448dd2ee8a refs/heads/maint-rel-1.4
+c486a469aada5f0670bff6d3c2290fa88f4f1e61 refs/heads/maint-rel-1.5
+bbc2e9cf5bb77f3d0ac0c17b49ea6687433fe726 refs/heads/maint-rel-1.6
+7b2922f105329712c55ecfcaa67153005b3a954d refs/heads/maint-rel-1.6.2
+0fafc68d287d103e0ea36a5b7efe83fc7cedbeff refs/heads/maint-rel-1.7
+a64b5793b3da84c2c458fcdcdeb88b85a4187042 refs/heads/maint-rel-1.8
+011c689f7baf0045e92369451c3b5387dbcb7b28 refs/heads/maint-rel-1.9
+e10b8b2d4bfe49400fe9d4360413a1547c4d3169 refs/heads/maint-rel-vivocornell-1.1.1
+558037a583c48c2b29017f65c42dd23d342e9dc1 refs/heads/maint-vivocornell-1.1.1
+c54f8a105b3ce553e9596fa2e9f354f589b9db67 refs/heads/master
+cc496c9e6795053b554b6dd629fa909568aa6b86 refs/heads/master-old
+d28bcc60905c3fee9d6505e868b80215e0243ea9 refs/heads/rel-1.0-maint
+f2359ddebd3ae75bbb610f5a0031962cd8d9d873 refs/heads/rel-1.1-maint
+be91e9b07247d78572a6d338291b23e3b80e02c7 refs/heads/rel-1.10-maint
+96e9f507c5b49bd27600191cc1da6a35a9ff6366 refs/heads/rel-1.11-maint
+631986a2d58c86c0913de350c2b467bb0eadb253 refs/heads/rel-1.12.0-alpha
+1d6556fac6e16945540773eee557d4066e070ff9 refs/heads/rel-1.12.0-maint
+573599bbc7efcbb28061d7ebc066c4da6e7ef586 refs/heads/rel-1.12.1-alpha
+166a2d35fab9023ac84704b623fffe016ca43152 refs/heads/rel-1.12.1-maint
+59a72143bc0d84259c6e2ae51a200aea144dbf49 refs/heads/rel-1.12.2-maint
+0a6ac07df92cdc44b9f98af130fc80623ba0d7e1 refs/heads/rel-1.13-maint
+89d06feeb1fc534b50db098de077fc98d4948e10 refs/heads/rel-1.14-maint
+04ea6714ba09579a72b7de0763bb80582ba1a911 refs/heads/rel-1.14.1
+223e4ded2f4d1b2ea434a063a97ea5e878751610 refs/heads/rel-1.14.2
+86eb75a1e45d7d9a158514924cd095f25acb0853 refs/heads/rel-1.14.3
+07c2bf240006efc52b2009fefabb8d6f30467e11 refs/heads/rel-1.15-maint
+bca9bbbce9f29007ccd4bc635f8c81368d8df42a refs/heads/rel-1.16.0-RC
+bec59377a072a60a5d3e4276bd5814c00361d71c refs/heads/rel-1.2-maint
+2b3e374dc09b09b27137c759618b09c30a60f0c0 refs/heads/revert-228-revert-deployment-strategy
+015f3c6af8d1b3a58e76f69033fd6858205d281c refs/heads/revert-248-main
+66d8608ceb3429a5ad340f6253dd627e4e8ac2fb refs/heads/revert-3932-fix/wilma-responsive-rev1
+9a2e143a52dfe915bd39f50aff703619d40a0502 refs/heads/sprint-i18n
+598a8ba809b238e6cd1b48bfaa2baccfce4472c4 refs/tags/rel-0.9
+^7256c3c8818072f5ff489edbb16bbe64d830cdda
+0a85f74358cfbc77fbfd59be02df3d7c23cd7a0f refs/tags/rel-1.0
+^e5c77a1ae8cd7138f4a73927b507354339312735
+af50f3ee4198dcfeea9a4ae83dc7df06a108a2a1 refs/tags/rel-1.1
+^7da024020458e3022ce0f7268eb8b295b781e8fe
+cfcf500613a870807da243697e8566a70b42d97b refs/tags/rel-1.1.1
+^5c4e5c1d6e507749fcd424a8ead86f7f9f9008bd
+4ff1981f31af34591cb05f83ba79a1487a86d44c refs/tags/rel-1.16.0-RC-1
+c47f4bf648c4a186b35fd9a58ef4fa08d3a59ff1 refs/tags/rel-1.16.0-RC-2
+3dbfbd5a138da49821a49627d65594970f8faf42 refs/tags/rel-1.16.0-RC-3
+a0d27da846392c867835fee30ad4a4cf4f0fca63 refs/tags/rel-1.2
+^dd5041a1609a3240f5d4b319e7e8a9b47299a611
+2dab3977da11206cab405f48eef1091a8f6867de refs/tags/rel-1.2.1
+^fe08aa5731a9e4c8cbc4d187bf5fde14a693a422
+56a4281a44e8366b49fe784305ef7f5e8fd6fe33 refs/tags/rel-1.3
+^0780b0f2247daca912c2e021d0e0689a7d23ac5c
+3af117e0cd5455df37f15b48a27a48a32d26e1fd refs/tags/rel-1.4
+^26634ea047577535488a257992142145b0518c74
+31a19a14a5660247f14e98421a23ac44a9b1bce3 refs/tags/rel-1.4.1
+^742275156438134918cfaf32f9cfbd1f86bd065a
+a5f22638bac0752a9cd07c308a600633e7e08e6c refs/tags/rel-1.5
+^382e0abcc9dd06feb743d961b84c55ed8ee06b6a
+2256d5214c92c5a7d8f112cd826bb426d1df0c68 refs/tags/rel-1.5.1
+^9163bebc9a8f292f70ba5ab658dc9c63d60e20e8
+44ce2d8407b79a98c3a2a548ccce5ac2e32f4a37 refs/tags/rel-1.5.2
+^9163bebc9a8f292f70ba5ab658dc9c63d60e20e8
+42a3e3e0a452a3e0afdce241dd8e8f9591f46f9f refs/tags/rel-1.6
+^646776ebe93a4ece9cb29f89b3a9dc7c20fd7ebc
+38fc2366a8552617e3f1b562c23975edb10ce4a9 refs/tags/rel-1.6.1
+^e26973ee1c466c462d236d1f058a678573f8b23a
+e623106208cd3c6cb7d9fa45240ee75949a46f08 refs/tags/rel-1.6.2
+^e26973ee1c466c462d236d1f058a678573f8b23a
+aa08fa9b67c2df09b15b8538cbea1a40365fc0aa refs/tags/rel-1.6.3
+^7b2922f105329712c55ecfcaa67153005b3a954d
+398db670636bbe2a9f3f4d440faebdd4cd4b3eaf refs/tags/rel-1.7
+^de65b62ae50bafc300f6f77520c563804175be91
+554498c871485819802b4e0f3450f96d86d67ea6 refs/tags/rel-1.8
+^cc496c9e6795053b554b6dd629fa909568aa6b86
+6399d5a44c0e16eea57a693646181daf040eabcd refs/tags/rel-1.8.1
+^a64b5793b3da84c2c458fcdcdeb88b85a4187042
+9ad8ecd0b9b5a72d68281835076ae0b40d0e298c refs/tags/rel-1.9.0
+a0f887f90f7f1981401572a8cee72475dfe991fe refs/tags/rel-1.9.1
+^066d5a08e7c39fa1f67a2fa1286af0babd4836e4
+b26a1abe1f1e9e06b32679b00d2e2aa573b178f0 refs/tags/rel-1.9.2
+^9e88e99fcdb375a3c443bd845085f0a5bb78d15a
+37cc07263bfa3010415d386b220a6340874fed32 refs/tags/rel-1.9.3
+342d49ca67b7df542911ebb6b28c6eb6c4572c13 refs/tags/rel-vivocornell-1.1
+^47e477b70fa81575d736d187168ccf5edaead8d9
+07febd1ef96df85c3514af0d03f82099f74a9cba refs/tags/vivo-1.10.0
+^4a457d735fc8fdec35114f074cd66e2a556a0fff
+a99154014a3f6c78c8ed10ec73c65959a06610e3 refs/tags/vivo-1.11.0
+^f0d3a70fba79996ac0bde2de4f0bbda91e62c6c7
+e7760e6559a0dbebbd3a4df48c5f00ced7fbb028 refs/tags/vivo-1.11.1
+^cad6a66f396786312d6cbc3968b8d8b35d875427
+6d3aedf42df8a7f2cfecd91ee5405535358bc54d refs/tags/vivo-1.12.0
+^9b0de5f3d480497c0e6fc32ace5f2a3cc19a865d
+f99a21b94b8b7160a231b12b2a2421fcf76c2170 refs/tags/vivo-1.12.1
+^277d9143aa983227214231e6536691c10a6feeed
+135b628858c11c86308c1fb8738f4484c480eb7d refs/tags/vivo-1.12.2
+^f2a8fde290b6e008d70728ab9c60a82c31856b99
+5ef7837078d50ec5b1e799ddb425ca0dc64359e3 refs/tags/vivo-1.13.0
+^56c3422de052bdbf1d1a444f4d3e678979d8205e
+87fdd7486e571bf2aba9a58fe5089ccbc98210a0 refs/tags/vivo-1.14.0
+^8b7be8a714b918ddbad9945c2f9c5c3bed858aee
+6583354d82be58004fd4c56cb8402a2c7ef9b843 refs/tags/vivo-1.14.1
+^90705f363d701785a8ef023d0fe5829b659d1ae9
+d920b0f8b9ab1ce54ccee7d2112565a7ed1bac9d refs/tags/vivo-1.14.2
+^b8ca32d4869a8fe519aef1178b34a70c2c25d809
+d03e101b197c675616eec2de222808d5faf6566c refs/tags/vivo-1.14.3
+^0b185b1b382e12df9bd6cc6d8f60c0c9eb97184a
+723eabb4d924f47179237c23beab1a5ae87ba2bf refs/tags/vivo-1.14.4
+^773253ea7e2d369ff2c7483f8f326a2b2c137c4d
+c5afa8fce1da2e29c8a07edd93ad57a38b20bb3c refs/tags/vivo-1.15.0
+^fc13d725ad6ce739f98ec787bc701f2bb809cf88
+28b07e70031f53d6d4441d800735cd5f51b100bc refs/tags/vivo-1.15.1
+^44dd9e4aaed474d803a30eb6f2b12d8af9cd8e1d
+7a948b528570d860f8171e6f7ce96b680bc6323b refs/tags/vivo-1.16.0
+^3dbfbd5a138da49821a49627d65594970f8faf42

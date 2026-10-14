@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 1
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/CDLUC3/dmsp_backend_prototype.git
+	promisor = true
+	partialclonefilter = tree:0

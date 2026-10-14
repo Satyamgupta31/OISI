@@ -1,0 +1,11 @@
+a89833cb0464299fdd22d7d3f0746eb4d13f5bf3 HEAD
+35482ceb634314ca46635884ca5bffa8e96c01d1 refs/heads/Version-1.10
+e5a94e570b203770ec7bb8450565d9089e29b78a refs/heads/Version-1.11
+1285ecb53cbcca26487ed664af37fa8e384b856d refs/heads/Version-1.12
+4c40d5bdce06753b0e071ada0b21ad83be53857d refs/heads/adjust-from-primer-review
+731f8862917449868845e4696505e48b46094fa0 refs/heads/examples-cleanup
+a89833cb0464299fdd22d7d3f0746eb4d13f5bf3 refs/heads/main
+99b083ea19eb51f0cb0d0409c10e2a54df418aeb refs/heads/mets2
+78ee81f5e7cbe03bbf8e6731a6f63796bb014332 refs/heads/noxlink
+8dd9c7830ef67c85acc06ff719336df4ee6b9d89 refs/heads/review-example
+e85eacff3a1bede0073df4a6d705dab17f046424 refs/heads/small-fix

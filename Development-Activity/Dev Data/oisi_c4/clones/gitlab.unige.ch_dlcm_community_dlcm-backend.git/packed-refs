@@ -1,0 +1,493 @@
+# pack-refs with: peeled fully-peeled sorted 
+cfb91db3679bb08d0448b2eb35ce0fcb8a64fa31 refs/heads/1.0-maintenance
+4d12b04b99a3a66cac56b7b331fd6f729d9e653e refs/heads/1.1-maintenance
+d11551f1ffdd15eed9c944f2273d63c59ee97796 refs/heads/1.10-maintenance
+36e5a2cfa046dae8ae4a7da35140882b19e5facb refs/heads/1.11-maintenance
+b2daccf111911c83edfc48d0520b0e3d537c7d4e refs/heads/1.3-maintenance
+3a24b3dec621d3202154074ee8141a07ed717092 refs/heads/1.5-maintenance
+2e3f51dbff5d83bfcb734aaec411c45d64953e26 refs/heads/1.6-RC
+668be952666f878d1ba52571ae7de8ce37d255fb refs/heads/1.6-maintenance
+7e00064c0c47e0aa8894ff0b0e9d88fab19c153b refs/heads/1.7-maintenance
+d7074ccc59e1b8cfb26b029edf8bbe98e6d8a788 refs/heads/1.8-maintenance
+47ab776c893f98d9f02b3d8090421dbfa81612d5 refs/heads/1.9-maintenance
+6092d9104d3ec399752dcb6a54da20ae666321d2 refs/heads/2.0-maintenance
+843665b542676773416cb0a19e289e9888180652 refs/heads/2.1-maintenance
+7da47a375edf60ad09dddc9d7c36effa569bcb93 refs/heads/2.2-maintenance
+6357e1d71912646417b1ca713778912019664f23 refs/heads/2fa
+68b321ee47beb57a36ef09534f3b743efc81fe64 refs/heads/3.0-maintenance
+52464a6bd5a4ef08d567e94a6d95c88045d3612c refs/heads/ADF-deposit-purge
+9c21c6d5149d7315ad06962c9f73ec756d730c73 refs/heads/DGE-DLCM-PhysicalStorage
+e1585179914ce1d1e206c583070991fc958ab613 refs/heads/DLCM-2698_Support_SHA512_fingerprint
+0d94219e4ffcce10223d9446dfca0cd150a5e1cb refs/heads/HCA-ARKv37
+efb9663ae487b911cc1b29e276c0aa2057b97bce refs/heads/HCA-ChecksumCompute
+8f21d8576bcad4b9dd913dd34d7c3a6d99a50196 refs/heads/HCA-CollectionNumber
+c703f58f2bb03ad25f74474b015713525c3179d7 refs/heads/HCA-DNAConnector-save
+ff0167db11d0078fc3eb3b6f59cd9798649311d5 refs/heads/HCA-DataFileComplianceCheck
+fe103169d7ac022525cf244a6d7ded778b320a4e refs/heads/HCA-DnamicData
+ab33e125f957f045d733077dae3eb655565b575d refs/heads/HCA-FixOrderSize
+66bb7d608fefda95992c63f94dcccd87efc8eba3 refs/heads/HCA-History
+b6ade13d524b9d4e0540b9d815ff2822d491437f refs/heads/HCA-OpenApi-3.1.0
+8ae6397d294ef8e3472a7ecee4da69a629ff455e refs/heads/HCA-PremisAgents
+b5e752336da7c302f0c0983aab9136bc485a0fc8 refs/heads/HCA-PurgeDownloadedAip
+e8a713bf109dea16b99a0f1d39bd20b85d08fd5f refs/heads/HCA-Solidify3
+4d1ef1505b528e490bb1fc5f5f1fb746bfaae690 refs/heads/HCA-SupportArchiveCollectionInRiCO
+8ce494fdecfaf26a4cea578f0b6b0f9850ea949d refs/heads/HCA-SupportEADInOAIPMH
+2c8e13131f3270cbc15c8ce0b4d4182157c3c304 refs/heads/JNA-docker-final
+ef9df9346b1f4f05b41c8d2cad3c472474ababa7 refs/heads/JPA-Siard-tool
+b2d97f5894891e2ce37ba17646948667cd180d12 refs/heads/MVO--jackson-test
+918d17afb944f0150be5e3bf137dd1e962771a8d refs/heads/MVO-ACL-allow-creator
+0f5a665eb0b7a8d921c0185074968c25b61d29d1 refs/heads/MVO-Tools-JavaDoc
+91dbebbabb887179699bc29493e889b5030b53a1 refs/heads/MVO-add-AnonymizedDepositPageId-on-deposit
+6dedd22ee6ab07cb695d9aea4d53ae296b4de338 refs/heads/MVO-add-JPEG-variants
+7f1ca072754c4e29bb9621fdca68c38c6945e0ed refs/heads/MVO-add-pattern-matching-for-subset-dip
+4667202d1e94464ab8d4da2f3752adc4e8a96a01 refs/heads/MVO-approve-submission-agreement-3tiers
+45b952fbda01ff8c89e74164453b212a1bce19ab refs/heads/MVO-auth3
+1e77f839ac7e46bd92cc6469dbfe41a67f2926f8 refs/heads/MVO-clean-org-unit
+5c6269f1417ac603a3d60c66632a0c7191655cd9 refs/heads/MVO-clean-permission-service
+057f4fb0a2b416fb598cd5d515b3abbd5e9286a9 refs/heads/MVO-complete-subResourceContainer-implementation
+e4426468f23defb2f8533a4bd4c8d8d7d1e3c03f refs/heads/MVO-compute-notif-receivers
+5765dc9234b5b70804a71ec2f13ccabd5f243da0 refs/heads/MVO-correct-IT-tests
+e3de584d673155effc8c4e4ac022721e592b163c refs/heads/MVO-dlcm-tools-web-client
+aa6ab34749639ec8cbd3a6d91058bb1fc7e7dd1a refs/heads/MVO-dua-download
+a9ada3ef7109b2bf2b7e5349efb79fbbcd23947f refs/heads/MVO-endpoint-for-data-files-status-stat
+d16814415e29b351097ab6c77da2d6b2e1836f86 refs/heads/MVO-fix-DLCM-2456
+59194587385cb743258b1c95d695a1e7344e2d45 refs/heads/MVO-fix-IT-tests
+7ac042b2024c93ec5939c90ba56f191d67b35529 refs/heads/MVO-fix-NPE-DataFileListener
+2846ae402e51cdd69de4cd3b97dcbdd5a158baad refs/heads/MVO-fix-annotations
+41cfbfacb277006e6d2270869939c53cc786cb81 refs/heads/MVO-fix-compound-accent-problem
+d292aeab2577ce2589199ce9422a2125d573989a refs/heads/MVO-fix-double-default
+4961290848741f8e759e3cbc52c5fa78b6b21df0 refs/heads/MVO-fix-fallback
+31fb7799e7cbcf5d7a70a57bf6e7ab3a5d1889e3 refs/heads/MVO-fix-fullName
+b94860a07227500a4223f5a2a7897aa672f44133 refs/heads/MVO-fix-mdWrapSize
+febc0563f4e6cfb82fc4a6218b565124ee5789db refs/heads/MVO-fix-search-test
+49a4559ea853dc850d63c57d93c1fec4ec4a7858 refs/heads/MVO-fix-serialize-change-info
+e75a223a10fa9c192608496285e56793d3ff9fd8 refs/heads/MVO-fix-sip-update
+2fb9d02bba732a39e374dd7f7ee06cc43e3ed72c refs/heads/MVO-fix-title-field
+596d0e788cf2d9042cfe158eefff770a964f0437 refs/heads/MVO-get-all-approbations
+d59b2136c585fda9d5c2cf18fc6fdad178032bb8 refs/heads/MVO-getAllApprobationsFiltering
+da95dbee558b4c0aaecc7f0680ba2ae1ae1d2cd0 refs/heads/MVO-improve-metadata-it2
+c49204c3f76ebbeb03f7920e76d215fff23b4781 refs/heads/MVO-institution-role
+a8eacbd24a387dfdc0b818960b4fd5708128376f refs/heads/MVO-log-tokens
+9b1a5786524ab9fbe31066e6c5aa0d606a478862 refs/heads/MVO-massive-deposit
+b0e73b3c8222754ecc460c69904e24f5a304f3ee refs/heads/MVO-metadata-unit-test
+a5f94573b62c60b25854bcf1beeaa92fd3970ba2 refs/heads/MVO-move-services-into-modules
+17bb43e4735bb817968a0e5a47f196f6ed1ea3d3 refs/heads/MVO-new-notif
+6ed7134d1497a88bb85cd4ee770ce4ee3cb2c8bf refs/heads/MVO-notification-history
+68e1934dcbd8e907e99b20d5622c8af6c7960351 refs/heads/MVO-ranking-auth
+abb06c1a8f1252362bb6ee406466a094107d40f4 refs/heads/MVO-refacto-initDataIT
+d100a49d2c20e71be141e2b336e36746cb91c572 refs/heads/MVO-registry-message-transient
+63789d05cd6412d9de5a082f74d3f58418f5978c refs/heads/MVO-remove-getModule
+69256c46805b1ff423a6a3cf345f92f527bdf8b9 refs/heads/MVO-remove-org-json
+4fb656dd1422691f23caceed239d5cfc884aa163 refs/heads/MVO-remove-persistent-id
+e91118a145498834c3c3bc05d89e4988f6ba2ab4 refs/heads/MVO-remove-proxy-auth-filter
+f2480adad468ec4575020b6b3b90fcb23026b8bd refs/heads/MVO-remove-public-private-index-tests
+d9c65ab65b5eb946d1d32caf0b87e5620706f0af refs/heads/MVO-remove-user-repository
+e53e11abee474189305c3cb22079a1211a45e594 refs/heads/MVO-services-directly
+8ee979b172ff6be6abe7d76f118a98eb6ecd5cfe refs/heads/MVO-submissionAgreementIT
+4569a24babb8ed0c1b3aec4b0b62cf1ac48b7934 refs/heads/MVO-update-sip-aip-names
+854e3cef2f0ecfcb9a617844bd1a2ce5fa6a264b refs/heads/MVO-upgrade-to-spring-boot-2.7
+77a5c0f1eeea678184c3e0dad77bf42bce0bfff8 refs/heads/MVO-upgrade-xml-librairies
+acd1bc6774dbf1b400be3c47edb051730f3d1b0b refs/heads/MVO-use-ES-keywords
+943e830b4254fd5fabb079c3c89f67a13d147ed4 refs/heads/MVO-use-RestClientService
+d7f6afd5c1ab26d8b149a8572558f776b19feb50 refs/heads/MVO-use-RestTemplate-with-4MB-buffer
+3781a4fe722029551e16c87608ede60f31075372 refs/heads/MVO-use-constructor-injection-on-service-layer
+d2aad801a3f27758dfd97754f006d19a0dd8e14a refs/heads/MVO-use-only-OffsetDateTime
+6a40c17dd8fe0aa0a55df03050e47fa4204c792b refs/heads/MVO-use-only-role
+175a6b8d99bff2701023e5c94ca8eb757a88fe22 refs/heads/MVO-use-only-token-auth
+7cb7c5ff0342153f58e89e7333964216abcb3c54 refs/heads/MVO-use-webclient-for-download
+904ff76dcc7464641cb0941797865c07074ee861 refs/heads/MVO-valid-by-jpql
+d87d99c983a3cf33abb2fd485a7639bb50ec97a3 refs/heads/MVO_test_token_expiration
+c43bd44f329342dd84b1518190e9afaba1edbaf8 refs/heads/Mvo-refactor-tools
+8468bac0154013607cd5ce474514dd17a2d589c8 refs/heads/NFO-docker
+b3ecd75de6603975933d01040e7ddbbee10a281c refs/heads/adf-177-archive-user-ranking
+506c45b85141ee43d10359fb0123cef68fc777f8 refs/heads/adf-2093-revert-changes-when-cancelling-update-metadata
+793dd7732029bae0424098104b7cb13ca0df083d refs/heads/adf-2982-fits-problem
+8e768ceeb2dc4a66f3779d4e514f2341d7cdc9ea refs/heads/adf-adapt-action-controllers
+ed04df54b7d57479f8f8c67eb5990b6649963c8c refs/heads/adf-dates-with-time-zone
+61ce7417369e2d963c04f77674247b888a8f04f6 refs/heads/adf-delete-folder
+37be52ead37b405864c4a5f9af6b5974bfc62f8c refs/heads/adf-depositdatafile-specification
+bc500cd783f98bf0108ab36b7d918b5101a138cf refs/heads/adf-fix-permanent-deposit
+854168f61e4f453faaa73f89a913f6c6cd332f1a refs/heads/adf-hateoas-link
+5ddd0116ba6609488b435ad77239eebe4c8d0e9d refs/heads/adf-iiif-test
+f6ebffb159ff8767fe2a0b9e94f02f806e2c664b refs/heads/adf-number-org-units-in-contributor
+d426217c7e96087eb6715704ef656d9a1be65cab refs/heads/adf-test-integration
+8db04b86281a4b778be4c8d591ad0c6f48ce5429 refs/heads/adf-thumbnail-path
+501057281e0b0768df4ae728a971828ddfd2eb75 refs/heads/dg-update-ignored-file-list
+1e213a488c53b4b068d4aa2fcff8a087e45115f9 refs/heads/dlcm-1836-research-domain-filter-by-language
+34d88f1911a04c4141664989978ef71adaae8e08 refs/heads/dlcm-2439_Restrict_DUAType_on_collection
+42ebd0aaabc47171fbcd0ec6c00f6e207efc8be8 refs/heads/dlcm-2451_fix_accent_problems_in_message_fr_properties
+4607634c304654792a807fa9adda98f8a5ab210b refs/heads/dlcm-2489_filter_deposits_accordingly_to_role_in_organizational_unit
+c0e85ed12b716887f649bb57fbcf22d95ff9d4ef refs/heads/dlcm-2491_running_trigger_disposal_process_job_end_in_error
+d2d0598d60808bd7ae566869b7cd5a0c126d4246 refs/heads/dlcm-2586_Separate_notification_status_in_two_enums
+b1a29968571c31e0e1bfdc8cb999d484be69f071 refs/heads/dlcm-2648_purge_temporary_folder_when_restarting
+f8252e2a075f05c27975ea5f4b9d788152ec8433 refs/heads/dlcm-2787_dissemenation_policy_parameters
+73c62dabdb11b0cdfc9dd0ce779e3ee3dbeb2dba refs/heads/dlcm_2898_create_notification_for_rejected_deposit
+811ded9cb6f5cb55d0bdbb0eaf6f016227349f2a refs/heads/fix-creation-permission
+6db2be0a3cb8a920f21d94c348ae1bab7e7ce094 refs/heads/fpo/1448_improve_fixity_check
+8a31895620ea2ff216ca946459970b6df07d2493 refs/heads/fpo/1743_download_token_for_all_authenticated_download
+2ca917ee87712657a3ed787b31823a9fa2d019de refs/heads/fpo/add-proxy-endpoint-for-opentelemetry
+cab57aede971c1b4b121dcc19a77c1a194e87f71 refs/heads/fpo/avoid-duplicate-publication-event-on-deposit-datafile-upload-processing-
+9e18c3afbdd48cd5e349f97db5907d8a2c239528 refs/heads/fpo/deposit_allow_filter_by_creator
+710730ff16d62b0ba93ced1b61eb78dd478f62eb refs/heads/hbo-docker-test
+1dc4e8d6ff020ec222827779411b5eba9d27c2ff refs/heads/hbo-k8s
+cadcbd665145f2bf27e9622ebca78ea3f2826695 refs/heads/hbo-snapshot
+a1ed52ef4a7e0f0b8d618764fcceda1e8cfcba30 refs/heads/launcher
+a4ac7e8c043895dc5b891b174581a52679f7ab6b refs/heads/master
+08c79bda69d45b93ab4352c359138543b5b6cb1f refs/heads/new-worker
+394578decbd593a606bd57250288340db4913c78 refs/heads/newtest
+10874373dc7aab63f05b2005f4e76cb7738e5a07 refs/heads/oauth2
+5b6e533415b50e874223a86952a3ef610cace468 refs/heads/rancher-testing
+629af3782b4315cc9a26b3d9d9d6366e6573c8e0 refs/heads/rodn-2147-fix-org-unit-update
+4d44694f7a090603fb1832668ca136de32c25c97 refs/heads/rodn-2927-grant-access-to-archive-contributor
+ff2a13d163400d63ee581796a80e46058a02814b refs/heads/rodn-add-dua-file-mimetype-in-representation-info
+f66fa77b5b0f7d404326f834abe10c7def0fded0 refs/heads/rodn-add-user-fullname-in-changeinfo
+c8e354137110a2945a52ae3b6b3e4f59646c56af refs/heads/rodn-big-bang-file-structure
+85d48459f828cd6f04379db20fc718dcf4379b1f refs/heads/rodn-check-datafile-uniqueness-with-query
+0cd551f6b50d403f1784cf3db4ec3e7bbd578b42 refs/heads/rodn-contributors-list-only-having-deposits
+019c8afea4b6328b7499783078d0c88ee6af112a refs/heads/rodn-default-visible-facet-values
+5d4c5226d5147f0629b8722295040ffc8ea8bbc9 refs/heads/rodn-dissemination-policies-set-default-when-only-one
+7f2aa281a89d532efc9ab14f18fb2de0c0298952 refs/heads/rodn-doi-refactoring
+8aafe1606add8843423b06c115b2ffeb52d83f75 refs/heads/rodn-embargo-access-permission
+6d84909ff4063f2dd492f46a61835ee21881019e refs/heads/rodn-faceted-search
+e4f200e5cd0960926cdd70b5cf722b27b02a7ea0 refs/heads/rodn-file-format-service-thread-safe
+db1999946e4d6799b6014a3c83a09c386e0247c3 refs/heads/rodn-fix-checkAipFixityTest
+5bdd71cc7635ac530f419432a7471e6346c64643 refs/heads/rodn-fix-preservation-job-completion-status
+48e57eaab184c1f4d17a93d7857c67fba2bc60f6 refs/heads/rodn-fix-reindex-errors-in-logs
+d42dd47e9b95f042b03b17f14c9e50531e446ea6 refs/heads/rodn-fix_labels
+c9cb3a36fa634d6f8abfe6769d90ac1803ff6836 refs/heads/rodn-fixity-check-everywhere
+e8a713bf109dea16b99a0f1d39bd20b85d08fd5f refs/heads/rodn-index-solidify-3
+d3c04c7567c899ac3e310097a647fc779eae51b5 refs/heads/rodn-integrate-apache-tika
+20c6a571f8bf5b39e117738651be9506ad2d57f7 refs/heads/rodn-jackson-test
+740f47d93540fab9150dee4d0bc7c23aba609871 refs/heads/rodn-merge-preservation-policy-info
+e29bb1c5df90cd5001d961b123b6df912140896f refs/heads/rodn-peer-review-date-formatting
+7734386ce0aa9fd06ce65f8d6aea8a268044371e refs/heads/rodn-preservation-job-validation
+df6c87a7f343bfc27b55794354e5b7506df8b5d6 refs/heads/rodn-preservation-planning-refactoring
+66bdf22e6d396bb9dd361a503617c4327333efd5 refs/heads/rodn-preservation-policies-set-default-when-only-one
+c8d3621da81bfb476c262b9698012044b61b6015 refs/heads/rodn-refactor-preservation-policy-interface
+094f63ea198b83212f4682514b0811514c911012 refs/heads/rodn-remove-not-used-constants
+90e0ac33f774ae0178c1b458e0746f9846245469 refs/heads/rodn-rename-sub-resource-container
+248701d3fad05cc70c3cf67bf6ed69bc33ce0f3b refs/heads/rodn-search-conditions
+c64386381b590f3ca0b650435a6b0cb39893dfc0 refs/heads/rodn-solidify-index-migration
+38f49c88507a04b4d4c881606650709eed7f5ddc refs/heads/rodn-solidify-user-auth-synchro
+68edfca6b5b28b9ed9d43e392e82e7790e6c3df0 refs/heads/rodn-submission-policies-set-default-when-only-one
+dba7cd88b93b7d600489c5524940a29e535c8202 refs/heads/rodn-update-orcid-synchro
+49248924d2f06f07b1cda54c5b3ec4557b7272f8 refs/heads/rodn-use-restclient-to-post-to-fits
+05cbce2b0e8219ce3f95b1af46b9c5bcab9886f3 refs/heads/solid
+e10e79cd0df3f300fd02ee44f95a1e099654ba7c refs/heads/solidify
+1361cebf9ae0608c2f58d4fa913e078bd4563348 refs/heads/spring-data-rest
+ce582e910a207677a95e5ec9f364562d8f8fe0af refs/heads/springboot2
+2bf4d95b382e3a3d70415fe5618e1bd7753299fc refs/heads/subResourceFilter
+7afd5ed5437628b1a5777b322f3da6c0a4036862 refs/tags/DLCM-Parent-0.0.1
+^ec52e41ca47ea8183326b4cb8fb233c1d7e58beb
+e9372ef19def17f0acf36e10c4f7dcae835064fa refs/tags/DLCM-Parent-0.0.2
+^067912ee2e0cec2df44911c35153b44c8ca1a64f
+d1cfa44b93325aa25d1f1e021fbb269da6563226 refs/tags/DLCM-Parent-0.0.3
+^79892b6ebbf26a9ca9c09074bd8579ee6dd22c46
+33f5310399fdf79b8cab0c9e5f9e40d1cc05e1e7 refs/tags/DLCM-Parent-0.0.4
+^292bfe09c722074ff09902334fc148799d4dea37
+8bc764d256113b702376038384228c6be68948f0 refs/tags/DLCM-Parent-0.0.5
+^ba20217f7a66aacf0e417b095e1a5225ca4869b2
+fdcd74d67032833fa4ab9fa7ca484c635edeff5f refs/tags/dlcm-0-0.6
+^bc07bd42bc11f4db4301058069c3b2e52b14433e
+732caf9657aa1237dbea790552e8a59a4506b6f2 refs/tags/dlcm-0.0.7
+^ded496d39319c6b2afa3b403149129adabef43d0
+09a255840b87ddd8910ce618bdcab3ed6eeff6ea refs/tags/dlcm-0.1.0
+^6ea4313ccabf66ce28e76be5246a4f277249cf4d
+6f4171344ec2ddcbbd03733d04098d8b5f82e93b refs/tags/dlcm-0.2.0
+^edc94cb0a7a9557aa80c59821e0c47f57302d46d
+56c5231f48794a271c4e460e7008b356cb25ad61 refs/tags/dlcm-0.3.0
+^a93322bd1f203603b35c46f1cbf2850ce5c699a6
+5cc152b12061a5e623e2cd7778e38854959710dc refs/tags/dlcm-0.4.0
+^b6820242faaefa2547c05130b60cc280aa4edb4f
+f866de0de286782e7bbd2f272096f32197a9f843 refs/tags/dlcm-0.5.0
+^9886331a7906ef7a25b656a2ade46d18d4f7d971
+ed5701a66b9a321d9519f1cc6df3ccea6529cfd9 refs/tags/dlcm-0.6.0
+^d5a54a1270b9f73c4cbe405c6c9f5ab777773e83
+ede47a659d8194e2f6d670f6377dbb66b9f8b4de refs/tags/dlcm-0.7.0
+^d13d215a1da0f925c8be3478c6a6511374364e94
+46b69ec038b4fe17010741ee86cdc5211e4b2c65 refs/tags/dlcm-0.7.1
+^3d471080acdbf383ef8f580d917ea4ce2cf48891
+8ca90232e54137d22098ced0ef4e80373b38f150 refs/tags/dlcm-0.7.2
+^ce97f5cec9e629e77cb17db2c702879d0d5c8c31
+ad178ca723e37f5c88a139ef9c3c89aeaadbcbb5 refs/tags/dlcm-0.8.0
+^4f60e319a6eeda6d308c8436097d8f745a7fcae8
+37d9cc835c776b782447fc91db8c4942452223b1 refs/tags/dlcm-0.9.0
+^fe4f9a0786bc404668de55c4670a79d21e4ccd34
+4476bfcf40d9034bcf7ca42f950d77343c3bb98f refs/tags/dlcm-1.0.0
+^4cf969d8eb076f1118503b0c87b5d3c52de77851
+c999d38fc50d9aa96e953bd373798430f59fb4bd refs/tags/dlcm-1.0.1
+^41557d02fdc16612b583686ea84447abe70ff0f7
+69ffa3f722e8c77cbb21b19b0b6f77ada096360a refs/tags/dlcm-1.0.2
+^fcf7dfc21408671ecb053aff08469db9efca0165
+cb1580aaa946cff0fb8c3985001b16192fbdca52 refs/tags/dlcm-1.1.0
+^ec2085e15dc8857592ed36543a4d812433d23f70
+a77f9086395e30ea22c4e500bd98e6b41edfa29f refs/tags/dlcm-1.1.1
+^898a77eee16a64490bc7bf9dc1166937cd2ab4dd
+cbc026feefd80ee2ce2068a0b2da70d6cce5569f refs/tags/dlcm-1.10.0
+^27c7d496fa4906b5abd55ec93c72ae766252f99e
+0db3025ed11ee1ff193a362ba165dbb15dbcbc5c refs/tags/dlcm-1.10.0-RC1
+^6879ec5b5923a0c67bbe061a08b738bf836b1a51
+e6ec77bb6c6fe8437d1d205a715554117cbc6a2e refs/tags/dlcm-1.10.1
+^c2c7341138d0c7f16b736723670afe5735f22ac8
+6e1684cc108496bfba6f2e1b6b0954c186ae2320 refs/tags/dlcm-1.10.2
+^c8eaa37ff06f1df5452abba4b8e1d41bf9e93fe3
+377dc78d9a7f926aaeaffeba836140ac8ec2e6a5 refs/tags/dlcm-1.10.3
+^4c61fbfd9b03ec3ac647b03a4c6971577766cf93
+b322e3ca89a7cae162b0ae01d501ce5878e86970 refs/tags/dlcm-1.10.4
+^9abd225d56945a1c80df300cf9dcaaca6a9ce827
+bdc9720054b340deaac6190c31d3c2a40ca90ac5 refs/tags/dlcm-1.10.5
+^520c452399b2184dfe2ca1c9e3927954f6a0900f
+f18e8217167ffc148e409a102c28f796eb4e2542 refs/tags/dlcm-1.10.6
+^f7eda5e7c7ca652f01a3a0a3391e8044a163957f
+70774165928267e882b4224c26981f6184e45720 refs/tags/dlcm-1.10.7
+^0214e8371eb40db67586c98dee9c276b1a6d67ca
+55fc44023e093f05de9ccb519ea43b9b18547c32 refs/tags/dlcm-1.11.0
+^6c58e5adb7ae718bb6869fd619b0535039c56285
+f51a2c21b0457cf85ae83fab8640c730c1493777 refs/tags/dlcm-1.11.0-RC1
+^0c807e8ccd7e31e719a870721a76d7bca3a89e67
+e1ad31b573e4b58d44dbdc1b76af1acd386b7bc8 refs/tags/dlcm-1.11.0-RC2
+^0d5956911250179ac47be229003e0496b3993229
+f503bdaf2f6f8e2b74131cf7f07f1cfc810b7a9f refs/tags/dlcm-1.11.1
+^6a9525237272c6ec365a05f461f59c1701cbb595
+b5eb66cfe1be199b09d3b220c10fdc00fb852426 refs/tags/dlcm-1.11.2
+^0d7dab8ca112ce087af7fa57d073365ad3c4fb43
+2763e2787038cfe2298b1f9087141634a400ba38 refs/tags/dlcm-1.11.3
+^68ccd03da1bbbf204e69b7f62af76b6780832f2b
+d3863a306702f1674be0d2b962561e036e1cf9fe refs/tags/dlcm-1.11.4
+^3a10214fb908e8ef2460700fbc1c054b46863186
+0513ec5ae60911da3caa637dc174c35b68a42a63 refs/tags/dlcm-1.11.5
+^a2df2a62acd649cd049bc752d09a7b31fedf2489
+d8ed941b3a11a41f3ad7ab85e278521f4165988a refs/tags/dlcm-1.11.6
+^88638e6d367d07c65ddacdc1725c000df095202f
+43b2f4cf4db6717f6fd3aa304b9b46d769ece42c refs/tags/dlcm-1.11.7
+^bdd5d64ed33b6f798e3c4a23f387685da952292b
+dccac2818844c789aa1646466a04a36ef03bad5a refs/tags/dlcm-1.11.8
+^df579a03e4656fe0dcfbda43b1e5ec735781e6a0
+d3de3fe794f94106466be1c7f00ecb803aca00a3 refs/tags/dlcm-1.11.9
+^06b3bf97d08e131e892e670e6b013058694a62a9
+01a92336d4b7b1c9736603783dcd762288dea45b refs/tags/dlcm-1.12.0-RC1
+^23dd32c47659a1246179585ee710604d54214732
+f90d03cd0289ac5185d05677b4e26efa25cff656 refs/tags/dlcm-1.12.0-alpha
+^5940912908723d6b9a07bf8d687c833a05fc8351
+4c814b3cb0a16eb761b0c04f79cc5dc4db491e68 refs/tags/dlcm-1.2.0
+^f655cbfaece6a6bbc10e896e12e573c99a98a8d5
+ea9060e83910e262944831416839e1353bd92417 refs/tags/dlcm-1.3.0
+^559dd7756d4613e5e2fe90c7356a19e8ed79563a
+b666196e56341df11d9d64a2b87a6bf374ee059a refs/tags/dlcm-1.3.1
+^013f6c6bab3ee8520fbc0f19070a795329f4a48e
+8ee6054699b711b74212500118ace9366956608e refs/tags/dlcm-1.3.2
+^f1a0884e5f857c8fe94ca7cc54a96a4d961d9f26
+752fd30d4bfad1bbc794af208b37aba267384062 refs/tags/dlcm-1.3.3
+^8b8fae9c8b0120124363f1a47f8dead97a9275bf
+6354d69a810d05e577f2a57541d3f807c173a575 refs/tags/dlcm-1.3.4
+^bb6f982f9317ccbc0ef282687c15c004c6e1e7b3
+59b90ac406d03239362c07d7982474a26505c40d refs/tags/dlcm-1.4.0
+^fcc6337abebb196bd9e0eee714f05d4d00af3d13
+4652550e6e1847f93fe63f6714a582a616985355 refs/tags/dlcm-1.5.0
+^18d6f1741db4b63fe7614911413f33de04c94976
+0afe910839cdd6759262ae2db97036d9e969f890 refs/tags/dlcm-1.5.1
+^568a6ef3bda3409a87a2306c84a107fe4236d2a6
+d38abfafe237463280edf4935a214092ff619db7 refs/tags/dlcm-1.5.2
+^77c0f3238969d61357f18b277063f5df9dba089b
+cdd25c0362e7d64d490812a26274e6ece36e6669 refs/tags/dlcm-1.5.3
+^a2d08a35dc9096af6e0afe99276cf5b8ec3eb098
+64807f793b9ef31936dede8ce5a004dac870f360 refs/tags/dlcm-1.6.0
+^33800b373b7a1714fa5ab734f0e48836cf42ef77
+172190c4fc1c8ca38c11bed293c3c1249f3f5259 refs/tags/dlcm-1.6.0-RC1
+^6390f4abacfd64fd3751a05a54cf165d1da31168
+878fea75738acd7cae3a972fab6e0c10334f8030 refs/tags/dlcm-1.7.0
+^30fe35e70fda3a4820540cf95bd655aa96a4da74
+97e3a37b03fda9ca398266a692e9787debf024ec refs/tags/dlcm-1.7.0-RC1
+^64effd78887e803577833120d2665f3f07e8dda4
+f36a7482c6f5f29391a91ad91c37d243516c7d4c refs/tags/dlcm-1.7.1
+^44af0bf2f914f6a1a2bf48f7e899f8230133c6ba
+d1f520fb33091137646a32deb05966538b780e69 refs/tags/dlcm-1.7.2
+^253acd6f0b0aa83a73f4f74e9db1112693593fbc
+c8f29253f95d8ef1e4f3da8f6fed85cd878a7dd9 refs/tags/dlcm-1.7.3
+^0eacd5886e70c65df1770e4a08d3e8fdb7f4ee06
+6323726f2bc316c13953ed06f09feaa4b799cf22 refs/tags/dlcm-1.8.0
+^ae5c59c3c8deb8c9fcc9ee5887436720c30c67c0
+558ec567511dbb390a375957c05d975b8ea8a44a refs/tags/dlcm-1.8.0-RC1
+^e8c92007f00a211c8049f3fd8a30bf6c1bc9bf5c
+cd1370e76ebde970eecd105ddba875c04da325d8 refs/tags/dlcm-1.9.0
+^13b50903b6b15d16e36f5f5aa1c0649e7387f13b
+09ba2693558f2dc98d0d9314f81bc301f63b6edc refs/tags/dlcm-1.9.0-RC1
+^2c532f86b8d78455f01fdcccae35e2eab3b129f0
+83d1777a25e21c667a150ca1a2f7416c9fd34c8e refs/tags/dlcm-1.9.0-RC2
+^cb57e8d3e4b55b17662db9f5bbe45c509cac47ec
+d5decb5e7e33f43adbb5d42802df36dce4dd5d6c refs/tags/dlcm-1.9.0-RC3
+^e88b3c02aed24edbf17a585e803378751a3de459
+c2021a3eb6fc6850b7bc46ca087cde68fbcf93a4 refs/tags/dlcm-1.9.1
+^cafc6c5eb26b9856e7185e6defc5b7b237a2688e
+a25182f7f99f22585e1389a4067c94b14234aecd refs/tags/dlcm-1.9.2
+^e37a10fc222b793c57c4f6abd2e4a94e4d28ac43
+e9e139695c63acb1b168ebbd3a2163f88977c791 refs/tags/dlcm-2.0.0
+^8a9ed5151b9f942b4d8ce8a5f0a9d0eb3b735a18
+114539849dc768f31d4575f93df10542662f11a5 refs/tags/dlcm-2.0.0-RC1
+^6bae51519e0e8f71c6e6813465662de0d7ca115a
+9cf326961608f9db5d8bfe2f5a9e62769fbb8cb4 refs/tags/dlcm-2.0.0-RC2
+^8a39691e752ea2b4c4f7f4cae45f31fd9b411eb3
+75b02ee7ff3a880596143bcd15ef8629d027e77f refs/tags/dlcm-2.0.0-RC3
+^f1679eedd67a11c700c0203ff41ce32a9cd04d9e
+71fde8f02dacfafa637543de06f879e482182d07 refs/tags/dlcm-2.0.1
+^6954065ee255ba7fea8d8138901aa1abb6fd9792
+d5aba6caadd56176ebec5b2833726161966d5c75 refs/tags/dlcm-2.0.10
+^2a6dafa9ae5457c41d559ad6801e1a0dbdfd45f5
+bb753f63ed4d7680f09c51f2291898a79a96252f refs/tags/dlcm-2.0.11
+^c76598a1b5347d1ca3185f4e2b4518ab5a54f69d
+470bc1f6e6d324171e9dd164e3ec5d285901f3b2 refs/tags/dlcm-2.0.12
+^c5b58e27dcbf0d24b5dbae4e9690f8c8138b1629
+b1679c4445f9702897d57cdf834125724268ff83 refs/tags/dlcm-2.0.13
+^4eafc761333ba77b4c998e57206f26124dcfc0ed
+c33bb8bf205b44e400980343baa9d5c5c7bdc3c0 refs/tags/dlcm-2.0.14
+^5fac45deb6662363533b5fe870dd92eba689a8ed
+5a7b58f69873b6e074db246d0d7ccedd03769865 refs/tags/dlcm-2.0.15
+^4a91c7971ba0fa0c7dc443ef7bd37fd560c842fe
+2dcf238f1433303ee8c6865318ea841b847ea4be refs/tags/dlcm-2.0.16
+^7b62fb2a4a9fd7f266c6ec90c6d53f6730cf43aa
+23a837586fb6b34b7eef3bf9838cba1d41a4811e refs/tags/dlcm-2.0.17
+^8f36d634bbfa7aee30ab0dd02427dcf9a62e078d
+9536c8d8f5720c57a812f10822944025c5bd738b refs/tags/dlcm-2.0.18
+^746ddbf7894562dd3f46f4651fd2ab78a5fb3a52
+b57d876ddde052423f7dab92b01134d1c9b750ad refs/tags/dlcm-2.0.19
+^2ff692e0ded8ba05df1a3f78f580336fc920f655
+69c6d9cfa472695fa5f514af054e825232150be2 refs/tags/dlcm-2.0.2
+^569965aac1eba78d6ac4c54783410a3af785a8f5
+5cfe86b1438de06629d82f1d3a7b8e2ca7e88a78 refs/tags/dlcm-2.0.3
+^7f039c3097b84a9dda35e28038d6d09cdf381a2b
+90edd3ed5ed681d98c5c0dc1ffc7fefcd54d6c84 refs/tags/dlcm-2.0.4
+^7110fd3e14dc30bef69f27efaba89f04851a26ef
+1a0d957280ca98e9ffe119522846ce187dd60f73 refs/tags/dlcm-2.0.5
+^26724291701fbb762f3f5ff70a39140ebb1582ab
+d3140b6528eec95b3c617f67b69de03eca292f2d refs/tags/dlcm-2.0.6
+^216efeabe1db94b8ec54371d8a7387ffd3b6cadd
+86e01c998d124908a04bb178e733f1a93d42ebc2 refs/tags/dlcm-2.0.7
+^305d0b3484acc2b44347e126071a5cf7ef3a2329
+206413ba6041a9e66a91b5ba10b1c8ee66428a49 refs/tags/dlcm-2.0.8
+^3a253da4e440e9cb205e9c98bcbcafd854f295b9
+6b79bf60499fd37698e0057739c8ac3ed5475f9c refs/tags/dlcm-2.0.9
+^672cc10b85036c6e2823cb8b9af089cebb362672
+18d18ecc29a1c29820a45c4bd969a667ddde46d5 refs/tags/dlcm-2.1.0
+^c2e8a91e62a03bd412cc64cff02c38978ac1738f
+eedd902b83fa6138f71f2ed9042beb0e10173db8 refs/tags/dlcm-2.1.0-RC1
+^5b7f26e6f9c7b65a946e37f2aa61572968b0da7c
+c1a6665daeaec2f2189a0e779bca1e6e37fdf2da refs/tags/dlcm-2.1.0-RC2
+^3abc7d314e8f8a4f537131cd759b8403da1560f7
+97614dd2fb922b21bcee7ef3be324f1c427b13e2 refs/tags/dlcm-2.1.0-RC3
+^5baa4dfdd018a53970887b5a82fc5815ef5d53b3
+1fedb52edaa2164bdc9527adc2ebd58f123a321e refs/tags/dlcm-2.1.0-alpha1
+^4b9777f89995d550482cdbe050f20d00da04945c
+fd32612a8f7068e5efe0bd39cd14f94fc1515f09 refs/tags/dlcm-2.1.0-alpha2
+^bf41119ad9a1495bfe4c464605ac7bd683667c99
+a2da8bbfc7373ad9de5d9e53c1140487c73a4046 refs/tags/dlcm-2.1.0-beta1
+^a86bdb56332a175ffa6b549131fa4a6095d333ee
+1db3d78876fe250d8097f9edf48609ddefa638d6 refs/tags/dlcm-2.1.1
+^02e6f03a2018e5f38320a9d77cbc025ff3ad4bec
+6e05c373324df16d6c3099e85ef975d78b2d6230 refs/tags/dlcm-2.1.10
+^5930ecaba621bb5959183495aef6557498738550
+089f81a180fd500e14d9575c26b631c4c1b760a1 refs/tags/dlcm-2.1.11
+^1781e706d9ff5998da3eca160edd19c27b9c6073
+c0afd1fcbe492e99b4a218e2df648005c554e8f3 refs/tags/dlcm-2.1.12
+^36477a9b4e0ec4c66693e1af0e689dac484935c6
+199bdbfc81365b1282e512d0289f6ac10a467731 refs/tags/dlcm-2.1.13
+^da8b718c22d38b08346b3ea97f933361b5a24d22
+a566502fa016835003d36805533d86b81af33918 refs/tags/dlcm-2.1.14
+^8c63459d6abb259a438631f6d4756d12e8d07d24
+0fcf91ebf133b840b4344e91ad3455899141e758 refs/tags/dlcm-2.1.15
+^851d87d648c12cbe3f3c335e4fa67f462ec92345
+04f57edfacef33bfae4553144a7bedfef7d54733 refs/tags/dlcm-2.1.16
+^f3a8d9c802a7bebf573eedc6282c56e64f84c4a1
+432a3b9c6f6babcea2c72eb6a5d04e6c9595649f refs/tags/dlcm-2.1.17
+^137615cead5de89ec6829077ad1e092a9583b308
+c2ef5258649ba4dbfb1035d43d7a4d41569c58ed refs/tags/dlcm-2.1.18
+^49f80b84fa77a9212a26827f5594e15eefc7b385
+1bcabce43845cd11f6f45221ec2f596c42c0491c refs/tags/dlcm-2.1.2
+^22065915a640ab45affed40011eb528663cfe368
+4d5e6e4d364d25fb0db3040d2f78e7758f3029e3 refs/tags/dlcm-2.1.3
+^96152b9fccf8065672e29f878f640de9180f03d5
+7e7ce3d93d79680ded20ae3ae39cf5f73d70d69f refs/tags/dlcm-2.1.4
+^ffbc465fede46877202789c9c73c8dcf56e52fe8
+654a75ca00f43d5faafc35b4aa6c2268b75f478d refs/tags/dlcm-2.1.5
+^28a5b5b88eabda737a882fbfc453629265194b3e
+1f16fb83c4b2258434461670f344d3548d9d2f2e refs/tags/dlcm-2.1.6
+^9a6e7cd7ea5796b2ca872dc6a82697ce70b7594a
+43e1cfc3655a618f87737e3079add131f9fcfdc4 refs/tags/dlcm-2.1.7
+^e7e7c7278d3eab5dc051474807f64dde26c46549
+2f5330d8a4ce9b55353328d2fa6b2207abc1816a refs/tags/dlcm-2.1.8
+^1a438efd1c1a4007abacfdeb69be0853a6efe09a
+cae434185458eb55a56629056682e28c2788e9af refs/tags/dlcm-2.1.9
+^755c15821853e06fb4303b0677a717edb644b2be
+6f721c1d8d7f3c3e00c9f61cebfc0f59ee883f60 refs/tags/dlcm-2.2.0
+^3fae84fbf7052afe4ab8f3361ca9e29e507240f3
+f1bce8dc398452808884496211ecd890818f1055 refs/tags/dlcm-2.2.0-RC1
+^a4f84f931cd85d76299dc6524076ddb776fda74b
+2e1611776c745ceb98073e91cbd10b5a8d9c4b8b refs/tags/dlcm-2.2.0-RC2
+^9bc9ee52ea273aa4d2c30c55f02d3ab4361dcc71
+81bd7f97a0820191f806d170530e8260530d2a57 refs/tags/dlcm-2.2.0-RC3
+^0982f4a1ec0be1f25dc189f15bf7b70143703a62
+0a9c13e35129abde399c443580e9312cea31ae2c refs/tags/dlcm-2.2.0-alpha1
+^b7728612b52c8933c5ca46154a30325490cfc50c
+c7aa51c5c9fa5052ef01c6e6d50f7c8537e7a5aa refs/tags/dlcm-2.2.0-alpha2
+^91218f1154ff666d359c31155df47d01b2504bd8
+a6754e6801375876d84683a9d010fe65ff0425e2 refs/tags/dlcm-2.2.0-beta1
+^9b637b6f7cfe2b01a5d726a892d2afc353ea598a
+9270131b8cb126ad4bbbeb88e84e8393ccbb873d refs/tags/dlcm-2.2.1
+^b4b42528d589b3809259dc30c8120c9cc4d50e6b
+2ead141aa6013f0078e8be1af46ec3bb0c17a4a9 refs/tags/dlcm-2.2.2
+^55d4e18714d0c64bf050bdb98ea18a928d3ea2aa
+96b76c7042a7f339557189637810f584d02645d4 refs/tags/dlcm-2.2.3
+^853788b771b836dab0bc852645314a38cd36fdc0
+bd28cfda2971af39a495310624b6b8ac34ef73a3 refs/tags/dlcm-2.2.4
+^3503302f289f7180eb780c43be359ae2c84dfd31
+7343b6a929d6afe7e58c292d44f55d41f799762c refs/tags/dlcm-2.2.5
+^9205c8fb8bc681fcf725a93aa446e961e92303ca
+4939b5069b3090017191262b0494e578c5e408d7 refs/tags/dlcm-2.2.6
+^adc93b470894f3d5148197070b70b17f1d15c360
+7b73ed5c949da0062c44003d8661efda51950432 refs/tags/dlcm-2.2.7
+^ac8419932772ad5fc1f80250077ba90d72732b2a
+e28ba06af9049e82208a1f557e7499fcc5f8949b refs/tags/dlcm-2.2.8
+^f4c0db01359f6e9234301198c82064ebb9e95f96
+9bba408c72dba2ebd64b2b039e5d9d6cbe1b7283 refs/tags/dlcm-3.0.0
+^9fb8868ec42024fec8f8abd56b3e8508e1be7e8b
+be21c692a251cf48ca327a8930a11915d55a2802 refs/tags/dlcm-3.0.0-RC1
+^15e4e981c0fe948268ab65cb1c129f04978bfc1d
+a2c6c59b4b48146f28ec5363cffc747eca952184 refs/tags/dlcm-3.0.0-RC2
+^507dfa800aac68c5e528eb263a319576a08c3cff
+148d2504130ea145081d64b1cd7028086e950611 refs/tags/dlcm-3.0.0-RC3
+^73880c07fb45c3916f96c409434944649dc583c5
+941dd8f3737ddb00fff0d4760d5d5903a3606788 refs/tags/dlcm-3.0.0-RC4
+^0f67b98798ad03f2e13f78963cd800d2ccab3c59
+17eb963d4f38da1a39b41efc1d83d99dd65d6eed refs/tags/dlcm-3.0.0-RC5
+^188aee76727c60d7b77cff899c1d3e31fcf92101
+2138a9f937fa567201796d2e1ffcb35320e13dea refs/tags/dlcm-3.0.0-beta1
+^38334703e981ec3b74de7fc388f71b705e12a496
+e2a80380307b2d39e8cd0a06e0ce3aa65ac1bb64 refs/tags/dlcm-3.0.1
+^b8c4a624a485baf76aca8ce3b46fbc7dd9099a7f
+4a59a943233d1d549ddf2506e474f1e629d2ca35 refs/tags/dlcm-3.0.2
+^38b38309db2ed371cf2d4e4f2a8070da61cffc1f
+33fdce41b288ba4b7c4a505a5c6be86b7c2248ed refs/tags/dlcm-3.0.3
+^0c1eacac408db9c789729230ae0662a6a9b8548e
+df25a90994d34555656f4856ec5cc1a84a581a10 refs/tags/dlcm-3.0.4
+^4d8b22443d9e44cccf53b173ca4097eeb7ecb58b
+9809fbe6c67e46e7d1b4749f2dfa60d55fce9f4b refs/tags/dlcm-3.1.0
+^6eaa6f9d1c11e427987df00b5aa882d37b823ea5
+588e680005db9f3b3ed9cf88b3e93ccc36899da2 refs/tags/dlcm-3.1.0-RC1
+^01f92f5a867d29bc59699c6292af5fff0a8af72d
+b65eb80ff036584dc1a519f6214aca20624fdac0 refs/tags/dlcm-3.1.1
+^0fbc019c3022d7d9a4e6cc10ed56f5557008d82a
+8977c22f58152b39f13671eeae901d73ca1a6ded refs/tags/dlcm-3.1.2
+^cf4b863313e1d094d27a3e9b03e87e0619dc78b5
+1dd158ee198e05f609c3f875d228e7e87fddd796 refs/tags/dlcm-3.1.3
+^1a4d09122ed9e727e423d3c1673bdf081585fe09
+f5dabfb6ac1321902df33de89608afdf099f969f refs/tags/dlcm-3.1.4
+^2bd66b4304e5bead4e9c077d138971468fb38a53
+9867ba111c48f2f694f408c521f8c34a8fb80d43 refs/tags/dlcm-3.1.5
+^ccff208b7b72f23e1b22f29c573a143ec76086bb
+98ee4d7b269dfcf0182877930f355d943f110bad refs/tags/dlcm-3.1.6
+^26d6d82152d38cd81efbae30c4b5df2805063421
+19d2698728305ff77f350f8bb100da4de28f148c refs/tags/dlcm-3.1.7
+^08f634033f69be7966e031d588e11f7157082e5f
+46706a852676719a1ef87c31158c197fbf52aec0 refs/tags/dlcm-3.1.8
+^b99bcbb6082349d887c48a7250e16878c5fbab1e
+55c1ac91ef58ecdeabaa2d08b0beb643f1ce339d refs/tags/dlcm-3.1.9
+^f74fc0b3efe286e49219821cfd421b50db34b2bf

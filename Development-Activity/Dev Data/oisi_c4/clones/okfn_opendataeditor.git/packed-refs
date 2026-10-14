@@ -1,0 +1,125 @@
+# pack-refs with: peeled fully-peeled sorted 
+7e478ac6f5264ccc37070e42ed8766b0c56f05cf refs/heads/1001-freeze-first-row
+b19b88875ca46108a3527b704192878bfa85b8a2 refs/heads/1024-add-new-ai-usecase
+5c58d2c2fe51e0f4df54ec40928b22e2505168a9 refs/heads/1027-minimize-ai-dialog
+53eed5099f147c48a81aa41de8786f6f65e4a95f refs/heads/1082-add-translation-docs
+be09b786002b61e9b38ca7972ccd34fba4965535 refs/heads/271/getting-started
+7572a0e61e60b8f70b4f688673152db83577903a refs/heads/315-change-message-when-deleting
+f0a32f0f889078f9113d464fd02863f3c6c18f63 refs/heads/341-selecting-multiple-files-menu
+11ed1c599eef5cad45481f4fef5ba31176318810 refs/heads/355-internationalization
+586fde3b0f53fb535b4c18179b11b25e14094d2f refs/heads/355/i18n-breakdown-2
+4ac59f7c7587f5e3b1ef8d96807056abc690b2a5 refs/heads/359/detect-proxy
+952dbc7d9a62515cd488ef901700da32f831481f refs/heads/38/improve-chart-controller
+a4aaadb8ac50a2fc22471673604e9a59f6f6558a refs/heads/392-top-menu-options
+ff928356b0b608f341b15507ee4462b1f3c2d8ac refs/heads/417-top-menu
+14b249c3d20988316786464f017e73979500a428 refs/heads/429-add-letters-header
+72ecf7dfb1dbd5412c53f554a51d7c055be7202d refs/heads/442-filtering-options-columns
+616328b0332913d57319b8fa1d88e5035e6cf9af refs/heads/453-welcome-screen
+ef3b099e0d3b96c67cf758ae4bc1ec95595c9c4d refs/heads/474-hide-saveAs-btn
+274356fb9411fe7784fb094f5fa42ead9fda8eec refs/heads/482-error-examples
+f088068e2abdc557448a98180fafb41833104624 refs/heads/559/fix-uploading-remote-file
+f3730bfe70671d96fe219410da1b64816bc3f121 refs/heads/635/implement-ai-component
+ea9014fb18f14f76406bcc60a8aee8ee5eadd523 refs/heads/739-renaming-folder
+5451829cad2d1aec0c7f6a0f62800f39d6bf446a refs/heads/93-expand-files-on-folder-creation
+8c9ca3068bf86af590006ce7f19e6a540411b30b refs/heads/Update-AI-section
+83189de03414fc60343ca2fdee50b5dd57074004 refs/heads/add-ckan-exporter
+0b86ed482ef503009e803d00bc3475dbcca09cbd refs/heads/add-drag-and-drop-to-filetree
+55c372abf8cdcad96b8e9722e0bfa21a01fe56f8 refs/heads/add-fields-to-sql-query-no-events
+cf1604385c12df4e1cc5a195c02ff6fb7371e36c refs/heads/add-fields-to-sql-query-on-click
+49afacd3549e9513cbe5a0d9f2af05e659b5cbd0 refs/heads/automate-release
+284425ba4684ae0fd410f0334c23328c3998087d refs/heads/fix-style-header-row
+2b7f09253f0ac0f599b16ad7159f1bf51f3742da refs/heads/improve-folders-documentation
+3a734a9dcd8cdf841a9ca71cee5e600b75b0fcda refs/heads/lucpretti-patch-1
+82b9b3aea956642fbc35937135438e19b7844a79 refs/heads/lucpretti-patch-2
+823f64e8bf3a0152d58bacbfd57e918f4a51a253 refs/heads/main
+72b4d5c745b1e6af8eb9326fb7cd0048e587f445 refs/heads/refactor-build
+2ab701d7cea73a7b36e3a5c9fa461119c53192e5 refs/heads/romicolman-patch-1
+70e03b725345eef55da0d69e514deacc2aacf313 refs/heads/romicolman-patch-2
+21b3c3f594eba6fa613e11e56e71593b63084dcf refs/heads/romicolman-patch-3
+5a3ed5e7de8f3df465a58b011af0c73b147a32fd refs/heads/romicolman-patch-4
+f36870a948ada31ddfeba519f51a08353ff21b6e refs/heads/romicolman-patch-5
+ac68e9b53eed2335823198bcf395743c125e7177 refs/heads/site
+fae06d7ac18c08efc41393d48e39431a9bab7eac refs/heads/try-selenium
+75c327da0203c1004ba03f6d087cdbbd9e2f9cee refs/tags/v0.1.0
+^d4a90c6c0032262e5abf22e19cec7ead711415ac
+440acc5a55fd40bfcaa8493bf07da48ab551a2e2 refs/tags/v0.1.1
+^1dc49355ea81522498dcf5e2489d84502af5b8ae
+5f04b668593bfeb8e20022e88ffbce3215b51d8c refs/tags/v0.1.2
+^72d262e0bd384f6ef545a770ca2fd92f65b8802b
+e4b7d87d0080f5352ea786e85afb325db14ef0b8 refs/tags/v0.1.3
+^b92a6056ca6cf728e836ea2550bf3874abd45373
+91463718620c1228caf9d144525796d0397a365a refs/tags/v0.1.4
+^d54ac88dd18fc204304e8cdb7eee6f9f842b8949
+93bb5676b69471b33b4ae8c90427c20e0a0d2dc5 refs/tags/v0.1.5
+^6069c9121757b2257c275f1123d6f307e771724d
+f46de8b0650dfb3791ddf370a24e90b75a37ca4a refs/tags/v0.1.6
+^24e589b45d4842b2a9e2618910b37cbd880769e9
+e499771ef8fc541c6c168dfe67e50987d4023f0d refs/tags/v0.1.7
+^0f7148a02b4d0b45cd93ac1b6f10637b13580007
+656d60f3dca8cf8bb3674752c030c112ef831de8 refs/tags/v0.2.0
+^9c42f2b4f5d69c8cb88943c6bf6364776d327cd3
+5a32dd09f2ec662a94095d15860cbec8dc3f10ab refs/tags/v1.0.0
+^505942a7d6a5e4c074115a900e978934f0abbda2
+eab7e1c42fc6e8c208a438efa98718687b40be27 refs/tags/v1.0.0-rc.10
+^2cded6ee112958fe5b5a82c1e9469235b81dd448
+0b516901b474203b532931167f5e65e5b1f59d00 refs/tags/v1.0.0-rc.11
+^4a0b307565318cfe156a3bf0cdaa076d5b90a75b
+5d7f098f7adf3b9eb771da662c2c5bbffccc1fb0 refs/tags/v1.0.0-rc.12
+^5d70f85e06f8829d0617fdf78b3a1074001fba63
+020a177301e22aee48930e6ceb2fedc8753b19df refs/tags/v1.0.0-rc.13
+^5fe28a14b6da0027df243f6255a09b4fa151fcfe
+68223e17788a9601b05a8f564db979a3842c2a1a refs/tags/v1.0.0-rc.14
+^6b990b88eb7eec71c5dcb286d1e1d28614828b62
+127d3e70efb4ea932d8e393ccc5a51a8578ab175 refs/tags/v1.0.0-rc.15
+^77982d213f7f4c38de4b4a6c2a77e4c6ef96a019
+c46ae9fcced0124ff2f0a802d473f988cb6b6edf refs/tags/v1.0.0-rc.16
+^352fcc34f0989c49db58071099c608b5ab0f1933
+dd68b2f6bda95cb04833b94a5a32e75f20891c7a refs/tags/v1.0.0-rc.17
+^3e885ec314770629406cc70ac03132db59cccdcc
+b00520e63dbb18572f80bb53c91f3d5d38b003d8 refs/tags/v1.0.0-rc.18
+^cc1c9c5c8bfaff0b3d63b728d3e3db0b72b59bd4
+9bfbc2453050f80eb045f5215d771f08137f0358 refs/tags/v1.0.0-rc.19
+^d5e4f7a5fd1f5f90c60419925d01e7cc5b28333b
+092a6fd825d160f84653674a0ccd71ab3c162f1c refs/tags/v1.0.0-rc.2
+^5448bff38e13957621a419651836b95cde08e54a
+0c2d892d907ba7367b5ab5b3d5d2e2d9f3e2fc92 refs/tags/v1.0.0-rc.20
+^a92e68650d45424c674b5e5cc24e2452c1a9b39b
+c781845f1f00b3adad7266072eb8bdbc27f48440 refs/tags/v1.0.0-rc.21
+^634abbc8ab474fbf3f69819427189c7a4d855f42
+bad82931826d7007c33d34707e85a8a0c8b13eee refs/tags/v1.0.0-rc.22
+^c745f5061e8e1547c1194ff6507b5600218065f5
+264704e3c5a527fc90b33954fb8ce5e90de3baf4 refs/tags/v1.0.0-rc.3
+^3f5d5de13a38ecbf4860c76f512cb9e69b86e156
+437d72ed7b65db00d2630292f2443b9f0515f139 refs/tags/v1.0.0-rc.4
+^5d785f662d58d08833e0a6a6fd4f841387e348d9
+4ddc1c54e457e126a76c862864654f918c4fbe6a refs/tags/v1.0.0-rc.5
+^047b97f7ebf84e726c5f062288526b5c76a82387
+31ef5a90ae495c9c1b59ef68fd946a446207cdfa refs/tags/v1.0.0-rc.6
+^f089c956ac226011865f3bdde14521ec3f83cd25
+cc35dfd7faf3776942b370c799e01cc0737f6f07 refs/tags/v1.0.0-rc.7
+^f1ab47d9a77b7d62651aee412bd0de5b02d5bc94
+fdc5c592fc7e8b10cd5946cd88f5306442c562e0 refs/tags/v1.0.0-rc.8
+^5002e17b6f6aef36ac7380feaeddd57689923655
+1545971451d2dc4091d9678d0b65912cde0740f4 refs/tags/v1.0.0-rc.9
+^c75a731d0d375c731df0630edc8484e970b2efe1
+49c3888dadaaee1bb2b4b4321e8337f86d6a62cf refs/tags/v1.1.0
+^ab72928823188f8550d16e4de23a5d6416f37852
+8173ce31a848d0cbfe52fad48a050af9e0011d96 refs/tags/v1.1.0-rc.1
+^52e45ede270411ebece9a3b1023cbafa139e6f8d
+1a38538ed8f044e44545cea23591abcc8e2ae527 refs/tags/v1.1.0-rc.2
+^8526492ae256af7145819118233a0f084a15a791
+50653cca6b313eabf281b590aaca943ef56afa3d refs/tags/v1.1.1
+^ac2c3177d75a59ccf4efee5b9835e6293bb886ca
+019eb6595db2f5e722b9b675ab6a35f00daf8f65 refs/tags/v1.2.0
+df57a017d2913386eb6c0e3ae74e7d0ded12347a refs/tags/v1.3.0
+5bc426c6130c519ef481aa5049666920da96aa3a refs/tags/v1.4.0
+2e01b93aa137581b3ef2cd0a096b3508c157c304 refs/tags/v1.4.1
+c736455a16b1cfa022fff5afe1d61c3b0f8b803a refs/tags/v1.4.2
+4c306a32d12fc339f64c2a30b42a3fdf445ebd61 refs/tags/v1.5.0
+a136520cf2fe95dce7a7940ccadbb9e2f76ca0bf refs/tags/v1.5.1
+707476792cbfe3b75df30af010ee8d49f918a772 refs/tags/v1.6.0
+79adad9538797dac235de0461da728fb64b6d6aa refs/tags/v1.6.1
+de7e07c9abe707cd0b89867c57fd61637a2cacb1 refs/tags/v1.6.2
+cd923dc513fceba5615c4e65111effb455b0359a refs/tags/v1.7.0
+e1dad34234ffc81f00651dbde9818cf9954411f1 refs/tags/v1.7.1
+823f64e8bf3a0152d58bacbfd57e918f4a51a253 refs/tags/v1.8.0

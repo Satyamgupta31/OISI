@@ -1,0 +1,419 @@
+OISI Component 4 — Feasibility Review & Revised Metrics
+Oct 14, 2026 · @Demiwal
+Verdict
+The draft is methodologically sound and its pilot numbers are correct, but 5 of its 13 weighted metrics need changing before it can score the 112-entry list fairly. I re-ran the commit-based metrics on all 90 cloneable GitHub repositories in your list for the same window (1 Oct 2025 – 1 Oct 2026, UTC).
+Correct: every APTrust/registry commit figure reproduces exactly (191 commits, 12/12 months, 21.17 days, 44.50%, bus factor 2/2). The weights sum to 100%.
+Feasible as written: commits, recency, contributors, top-contributor share. These computed cleanly for all 90 repos from git alone.
+Not feasible or misleading as written: active months (half the sample is tied at 12/12), bus factor 50% (43 of 80 active repos = 1), median time-to-first-response with n = 6, the 11% acceptance ratio, and the claim that star/fork growth is unavailable (it is derivable from GitHub timestamps).
+The bigger blocker is the repo list, not the metrics: only 70 of 112 entries are ready to measure. 14 are organisation URLs, 8 are not on GitHub or not repositories, and 19 point to a proxy, website, wrong or moved repo.
+The full per-repo results are in the attached CSV (OISI_C4_repo_feasibility_audit.csv).
+Pilot check: APTrust/registry
+Your commit figures are right, but only because merge commits are counted — and that choice flips the result. Recomputed from the repository's default branch (master), author date:
+Metric
+Your draft
+Merges included (recomputed)
+Merges excluded
+Merges excluded + the two "nathan" identities merged
+Commits
+191
+191
+156
+156
+Active months
+12/12
+12/12
+12/12
+12/12
+Active weeks
+—
+—
+28/52
+28/52
+Days since latest commit
+21.17
+21.17
+21.17
+21.17
+Top contributor share
+44.50%
+44.50% (melissa.iori)
+49.36% (nathan)
+50.00% (nathan)
+Bus factor 50%
+2
+2
+2
+1
+Bus factor 80%
+2
+2
+2
+2
+What this shows:
+Merge commits change who the top contributor is. 25 of melissa.iori's 85 commits are "Merge pull request" commits. They record who clicked merge, not who wrote code. Exclude merges from authorship metrics; count them separately as review activity.
+Identity resolution changes the bus factor. The unresolved identity is almost certainly "nathan" vs "nathan.tallman" (1 commit). Merging them moves bus factor 50% from 2 to 1. Small teams sit right on these integer thresholds, so the metric is fragile.
+12/12 months overstates continuity. The same repo was active in only 28 of 52 weeks.
+The near-identical issue medians (2,324.809 h vs 2,324.812 h) are almost certainly the same event. A gap of about 11 seconds means the "first response" was the comment posted while closing the issue. Exclude comments made within 60 seconds of closure by the closer, or count closure itself as a response — but not both.
+61 of 67 issues unanswered is likely an artefact. In a 4–5 person team, most issues are internal tickets filed by maintainers. A "response from someone other than the author" will rarely come. Report the share of issues opened by maintainers vs outside users before interpreting.
+12 of 27 PRs "unanswered" while 21 were merged means self-merges without comments. Count a merge or close by someone other than the author as a response.
+The 91.30% acceptance ratio (21/23) is arithmetically correct.
+Repository list feasibility
+70 of 112 entries can be measured now; the other 42 need a URL decision first. Classification of every entry:
+Status
+Count
+Entries
+What to do
+A. Ready
+70
+Most single GitHub repos (Dataverse, DSpace, Galaxy, OJS, InvenioRDM, Hyrax, …)
+Measure as is
+B. Check or replace URL
+19
+bioRxiv and medRxiv (third-party clients, not their code); IIIF (awesome-list); ROR (website, not ror-api); IGSN, pyOpenSci (websites); AfricArXiv (docs, idle since 2021); Data Citation Corpus (data file); OCFL (spec); Dryad (idle since Apr 2024, likely moved); OpenCitations (idle since 2014); PubPub editor (idle since 2020); RePEc scripts (idle since 2017); Érudit, DBIS (idle); OpenCDMP (looks like a mirror); openCost (URL to /doc); DMP Tool (URL to wiki; work happens on v5 branch); Europe PMC (minor tool)
+Replace with the primary codebase, or mark "not assessable"
+C. Organisation URL
+14
+Archipelago, ARK, arXiv, Blacklight, BrCRIS, CLOCKSS, CollectiveAccess, CORE, Creative Commons, DataCite, Data Stewardship Wizard, DOAJ, FAIR Wizard, METS
+Choose one primary repo, or a documented repo set
+D. Non-GitHub host
+7
+Crossref (gitlab.com), D4Science and OpenAIRE Graph (Gitea), DLCM backend and portal (GitLab), OpenEdition (GitLab), OA Switchboard (Bitbucket)
+Separate extractor; GitLab and Gitea have issue and merge-request APIs
+E. Not a repository
+1
+COUNTER Code of Practice (website)
+Exclude from Component 4
+F. Dormant
+1
+TagTeam (no commits since 2020)
+Score as dormant, not missing
+Three further issues affect the ready repos:
+Issues tracked outside GitHub. OJS, OMP and OPS track issues in pkp/pkp-lib. GeoServer, VuFind, Fedora and ArchivesSpace use Jira. Archivematica uses a separate Issues repo; Islandora uses its documentation repo. Zotero support runs mainly through forums. Your issue metrics would show these projects as unresponsive. Verify each before extraction.
+Workflow differences. 12 active repos have no merge commits at all (e.g. Zotero, PREreview, Zenodo, InvenioRDM, Sciety) because they squash, rebase or push directly. PREreview has 2,648 commits with no PR-based flow, so PR metrics describe little there.
+Bots. Bots made over 20% of window commits in 6 repos, including Archivematica (153 of 316) and Openverse (38 of 50). Your bot rule must be applied before any count.
+Size is extremely skewed: human commits range from 0 to 8,127 (Galaxy), median 138. Any count metric must be log-scaled or ranked, or Galaxy and NumPy will dominate.
+Problems in the draft metrics and weights
+Draft metric (weight)
+Problem found
+Fix
+Commits (15%)
+Range 0–8,127; raw counts reward size, not sustainability
+Human non-merge commits, log-scaled with a cap; lower weight
+Active months (14%)
+45 of 90 repos score 12/12 — a ceiling, so it cannot discriminate
+Replace with active weeks (quartiles 4 / 30 / 49 of 52)
+Days since latest commit (9%)
+Feasible, but strongly overlaps active weeks
+Keep at lower weight with a fixed decay curve
+Active contributors (10%)
+Feasible; inflated by unmerged identities
+Keep; resolve by email and GitHub login, report unresolved
+Top contributor share (7%) + Bus factor 50% (3%) + Bus factor 80% (3%)
+Three measures of one thing. BF50 = 1 for 43 of 80 active repos; flips on one identity merge
+One continuous measure: effective contributors (1 ÷ sum of squared shares); BF kept as a diagnostic only
+Time to first response — issues (6%), PRs (6%)
+Medians from tiny samples (n = 6); unanswered items silently drop out; self-merges count as "unanswered"
+Response rate within a fixed deadline, counting comments, reviews, merges and closes by someone other than the author
+Change request acceptance ratio (11%)
+Not a responsiveness measure; near 100% in small teams that self-merge; CHAOSS warns against reading it as health
+Replace with PR decision rate within 30 days; keep acceptance ratio as a diagnostic
+Issue resolution duration (11%)
+Median over 7 issues; open issues censored; issues on Jira or pkp-lib missed
+Share of issues closed within 90 days, on a cohort old enough to observe 90 days
+Star growth, Fork growth (2.5% each)
+Marked "unavailable", but GitHub returns starred_at for each stargazer and created_at for each fork
+Derivable; keep at low weight or drop
+Missing
+No release activity; no contributor retention
+Add tags/releases in window (59 of 90 repos tagged at least once); add retention across the two half-years
+Two housekeeping points in the document itself:
+Everything after section 13 ("One weighting decision to finalize…" and Steps 1–8) is pasted conversation text. Move it to an appendix or remove it.
+The Step 6 formula is missing its summation sign; it should read Component 4 score = Σ (Sᵢ × Wᵢ) ÷ 100.
+Revised Component 4 metric set
+Recommended: 13 weighted metrics in four dimensions — Continuity 35%, Contributors 25%, Responsiveness 35%, Adoption 5%. Every metric below was tested or is a standard GitHub API field. Scores use fixed anchors, not sample percentiles, so a repo's score does not move when other repos are added or dropped.
+Common rules: window 1 Oct 2025 00:00 UTC (inclusive) to 1 Oct 2026 00:00 UTC (exclusive); default branch; author date; bots removed; merge commits excluded from authorship; identities resolved by email + GitHub login.
+#
+Metric
+Weight
+Definition
+Score (0–100)
+APTrust/registry
+1
+Human commits
+10%
+Non-merge, non-bot commits in window
+100 × min(1, log10(1+c) ÷ log10(1001))
+156 → 73
+2
+Active weeks
+15%
+Distinct weeks (of 52) with ≥ 1 human commit
+weeks ÷ 52 × 100
+28 → 54
+3
+Recency
+5%
+Days from last human commit to cutoff
+100 if ≤ 30 days; linear to 0 at 365 days
+21.2 → 100
+4
+Release activity
+5%
+Tags or GitHub releases created in window
+0 → 0; 1 → 50; 2–3 → 75; ≥ 4 → 100
+0 → 0 (check whether APTrust deploys without tags)
+5
+Active contributors
+10%
+Resolved human identities with ≥ 1 commit
+100 × min(1, log2(n) ÷ 5); 32+ = 100
+4 → 40
+6
+Effective contributors
+10%
+1 ÷ Σ(share²) of human commits
+100 × min(1, log2(E) ÷ 3); 8+ = 100
+2.51 → 44
+7
+Contributor retention
+5%
+Contributors active in both half-years of the window
+0 → 0; 1 → 25; 2 → 50; 3–4 → 75; ≥ 5 → 100
+3 → 75
+8
+Issue response rate
+10%
+Share of issues opened by non-maintainers (created by 16 Sep 2026) that got a non-author, non-bot comment, label, assignment or close within 14 days
+rate × 100
+needs API pull
+9
+PR response rate
+10%
+Share of non-bot PRs (created by 24 Sep 2026) that got a review, comment, merge or close by someone other than the author within 7 days
+rate × 100
+needs API pull
+10
+Issue closure within 90 days
+7.5%
+Share of issues created by 3 Jul 2026 closed within 90 days
+rate × 100
+needs API pull
+11
+PR decision within 30 days
+7.5%
+Share of PRs created by 1 Sep 2026 merged or closed within 30 days
+rate × 100
+needs API pull
+12
+Stars gained
+2.5%
+Stargazers with starred_at in window
+100 × min(1, log10(1+s) ÷ 3)
+needs API pull
+13
+Forks created
+2.5%
+Forks with created_at in window
+100 × min(1, log10(1+f) ÷ 2)
+needs API pull
+Reported but not weighted (diagnostics): median time to first response with n, acceptance ratio with merged / closed / open counts, bus factor 50% and 80%, open issues older than 180 days, bot share, merge-commit count, share of issues opened by maintainers.
+Why these thresholds: issue and PR cohorts end early enough that every item in them has the full 14, 7, 30 or 90 days observable before the cutoff. This removes the open-item censoring problem without guessing. Metrics 8–11 need at least 10 eligible items; below that they are "insufficient data", never zero.
+Provisional APTrust result: the seven git-based metrics (60% of weight) give 32.6 weighted points, i.e. 54/100 on the available weight. This is an illustration only; do not report it until metrics 8–13 are pulled.
+The weights remain a judgement. Test them against equal weights and against dropping each dimension in turn, as section 9 of your draft already proposes.
+Missing data policy and next steps
+Score a repo only when at least 75% of total weight and at least half of each dimension's weight are available; otherwise report "insufficient data". When the threshold is met, renormalise over the available weight and publish the coverage percentage beside the score.
+Dormant is a result, not missing data. A repo with zero human commits in the window scores 0 on metrics 1–3, not "unavailable".
+External trackers: pull issues from the real tracker (pkp-lib, Jira, separate Issues repos) where it has an API; otherwise mark metrics 8 and 10 unavailable and flag the repo.
+Non-GitHub hosts: GitLab and Gitea expose equivalent issue and merge-request data; Bitbucket often has issues disabled.
+Next steps, in order:
+☒ Resolve the 42 non-ready entries: pick a primary repo for the 14 organisations and replace or exclude the 19 flagged URLs
+☒ Confirm the issue tracker for every ready repo
+☐ Pull issues, PRs, comments, reviews, stargazers and forks via the GitHub GraphQL API for the final repo set
+☒ Write the bot list and identity-resolution rules down before extraction, and apply them to all repos
+☒ Recompute the APTrust pilot under the revised definitions
+☒ Run the weight sensitivity tests and a correlation check across metrics
+☒ Remove the pasted conversation text after section 13 of the draft
+Results of the next steps
+Six of the seven steps are done. The API pull (step 3) is built and tested but must run on your machine: this workspace blocks the GitHub API even with a token. Everything below is in the pipeline package (OISI_C4_pipeline.zip).
+Step
+Status
+Result
+1. Resolve 42 entries
+Done
+96 entries scored, 16 excluded (6 standards, 8 not assessable, 1 duplicate, 1 awaiting your choice)
+2. Issue trackers
+Done
+70 on GitHub (57 same repo, 13 another repo), 5 on Jira, 7 with no public tracker, 6 on other hosts, 8 to verify
+3. API pull
+Script ready; needs your run
+gh_extract.py computes metrics 8–13; logic passes offline tests
+4. Bot and identity rules
+Done
+rules.py, applied by every script
+5. APTrust pilot
+Done for commit metrics
+54.2/100 on the 60% of weight available; rank 62 of 90
+6. Sensitivity and correlation
+Done for commit metrics
+Rankings barely move with weights; two metric pairs are redundant
+7. Clean the draft
+Done
+OISI_Component_4_Development_Activity_cleaned.docx: 77 pasted blocks removed after the references
+Step 1 — resolved repository set
+Every decision is checked against live git history or the GitHub page. The full list with reasons is in repos.csv.
+Entry
+Was
+Now
+Evidence
+Archipelago
+esmero org
+6 core modules as a set
+No single main repo; 185 human commits in window across the set
+arXiv
+arXiv org
+arXiv/arxiv-browse
+Main public web app; 150 commits, 14 contributors
+Blacklight
+org
+projectblacklight/blacklight
+Core gem
+CLOCKSS
+lockss org
+lockss/lockss-daemon
+CLOCKSS runs on the LOCKSS daemon; 2,867 commits
+CollectiveAccess
+org
+collectiveaccess/providence
+Cataloguing back-end; 839 commits
+Creative Commons
+org
+creativecommons/cc-legal-tools-app
+Manages the licence legal code
+DataCite
+org
+datacite/lupo
+DataCite REST API; 868 commits
+Data Stewardship Wizard
+org
+engine-backend + engine-frontend
+The application is both
+DOAJ
+org
+DOAJ/doaj
+738 commits, 16 contributors
+FAIR Wizard
+org
+Excluded (duplicate)
+Distribution of the DSW codebase; report DSW's score
+ROR
+ror-site (website)
+ror-community/ror-api
+The registry service
+OpenCitations
+Corpus repo (idle since 2014)
+opencitations/oc_meta
+248 commits in window
+PubPub
+pubpub-editor (idle since 2020)
+knowledgefutures/pubpub
+Active platform; 191 commits, 65 tags
+Dryad
+CDL-Dryad copy (idle since 2024)
+datadryad/dryad-app
+1,442 commits in window
+DMP Tool
+wiki URL
+CDLUC3 dmsp frontend + backend
+Rebuilt DMP Tool; 1,223 commits (confirm with CDL)
+OpenAlex
+openalex-official (12 commits)
+openalex-walden + openalex-elastic-api
+Data pipelines + API
+Omeka
+Omeka Classic
+omeka/omeka-s
+160 vs 66 commits
+Oasisbr
+oasisbr-vufind (stale)
+vufind-oasisbr, upstream VuFind subtracted
+Fork: its 26 "contributors" were VuFind's. Own work is on a feature branch — your decision
+Érudit
+GitHub copy
+gitlab.erudit.org
+GitHub repo is a mirror
+OpenEdition
+GitLab group
+OpenEdition/lodel (GitHub)
+Lodel publishing software
+Renku, Eclipse PASS, VIVO
+umbrella repos
+product sets
+Renku rises from 61 to 498 human commits once sub-repos are included
+ARK, METS, IIIF, OCFL, IGSN, COUNTER
+various
+Excluded: standards
+Specifications, not software; score them separately if needed
+bioRxiv, medRxiv, AfricArXiv, BrCRIS, CORE, RePEc, Europe PMC, pyOpenSci
+various
+Not assessable
+No public core codebase identified
+D4Science
+Gitea root
+Awaiting your choice
+Many gCube components; pick one or exclude
+Step 2 — issue trackers
+The extractor reads issues from the repo where they really live: pkp-lib for OJS, OMP and OPS; archivematica/Issues; Islandora/documentation; ds-wizard/ds-wizard; esmero/archipelago-deployment. GeoServer, VuFind, Synapse, Fedora and Fulcrum use Jira. MyCoRe, PCI, OA.Report, Oasisbr, OpenAlex, BitCurator and BHL have no public tracker, so metrics 8 and 10 will be unavailable for them unless you fill manual_metrics.csv. Eight need a manual check, including ROR and Dryad (0 open issues) and DOAJ and Sciety (1–2 open).
+Step 4 — bot and identity rules
+Bots: GitHub account type "Bot" is authoritative. Otherwise 31 named accounts (dependabot, renovate, github-actions, pre-commit-ci, weblate, copilot…) plus a pattern list. Bot commits are counted separately, never as contributors.
+Identity: merged within one repo only, in this order: the repo's .mailmap; same e-mail; GitHub no-reply e-mail login; GitHub API login; identical full name of two or more words (flagged for audit); your manual map. Never on first names, initials or similar names.
+Forks: commits inherited from the upstream project are excluded (Oasisbr).
+Umbrella repos: a product split across repos is scored as a set, with commits de-duplicated.
+The full-name rule merges APTrust's two "Nathan Tallman" identities. This is slightly looser than rule 7 in your draft, which allowed no name-based merges; keep it or switch it off in rules.py.
+Step 5 — APTrust/registry pilot, revised definitions
+Metric
+Raw
+Score
+Weight
+1 Human commits
+156
+73.2
+10%
+2 Active weeks
+28 / 52
+53.8
+15%
+3 Recency
+21.2 days
+100
+5%
+4 Releases
+0 tags
+0
+5%
+5 Contributors
+4 (identities merged)
+40.0
+10%
+6 Effective contributors
+2.47
+43.5
+10%
+7 Retention
+3
+75
+5%
+8–13 Responsiveness, adoption
+needs API run
+—
+40%
+Weighted points: 32.5 of 60 available, i.e. 54.2 on the available weight. Under the missing-data rule it gets no Component 4 score until metrics 8–13 exist. With the merged identity, top-contributor share is 50.0% and bus factor 50% is 1.
+Step 6 — sensitivity and correlation (90 repos, commit metrics)
+Weights barely matter. Equal metric weights or equal dimension weights give rank correlation 0.99 with the proposed weights. The top 10 are identical, and the median repo moves 1–2 places.
+Two pairs are redundant among active repos: human commits vs active weeks (ρ = 0.87) and contributors vs effective contributors (ρ = 0.88). Retention also tracks contributors (ρ = 0.83).
+The commit metrics measure one thing: overall activity. Real differentiation will come from metrics 8–11. Re-run analysis.py after the API pull before finalising weights.
+Large projects hit the caps. Galaxy, OJS, GeoServer, VuFind and DSpace all score 99–100, so the anchors cannot separate the largest projects. That is acceptable if the index measures sustainability thresholds rather than size.
+What is left for you
+☐ Revoke the GitHub token shared in chat, then create a new read-only one
+☐ Run gh_extract.py, then score.py and analysis.py (README has the commands; about 1 hour)
+☐ Decide: Oasisbr branch, D4Science repo, and whether to drop human commits and contributors as redundant
+☐ Verify the entries marked "verify" in repos.csv (Crossref path, DMP Tool, ROR/Dryad/Fedora issue trackers)
