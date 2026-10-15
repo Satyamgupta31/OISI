@@ -40,6 +40,17 @@ def ensure_clone(row, clones_dir):
     if not os.path.isdir(d):
         git_run(["git", "clone", "-q", "--bare", "--filter=tree:0", git_url(row), d],
                 check=True, timeout=600)
+    # Ensure Windows bare clone refs directory structure exists
+    os.makedirs(os.path.join(d, "refs", "heads"), exist_ok=True)
+    os.makedirs(os.path.join(d, "refs", "tags"), exist_ok=True)
+    for f in ("HEAD", "packed-refs"):
+        p = os.path.join(d, f)
+        if os.path.isfile(p):
+            with open(p, "rb") as fp:
+                c = fp.read()
+            if b"\r\n" in c:
+                with open(p, "wb") as fp:
+                    fp.write(c.replace(b"\r\n", b"\n"))
     return d
 
 
