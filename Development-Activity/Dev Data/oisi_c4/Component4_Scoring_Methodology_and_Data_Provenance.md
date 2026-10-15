@@ -336,8 +336,8 @@ Related diagnostic columns:
 | Data source | GitHub REST star-history endpoint via `gh_extract.py` |
 | Raw cache | `raw/<owner>__<repo>/stars_history.json` |
 | Raw definition | Count of stars gained inside the observation window |
-| Score formula | `100 * min(1, log10(1 + s) / 3)` |
-| Cap | 999 stars approximately reaches score 100 |
+| Score formula | `100 * min(1, log10(1 + s) / log10(1001))` |
+| Cap | 1,000 or more stars scores 100 |
 
 Notes:
 
@@ -356,8 +356,8 @@ Notes:
 | Data source | GitHub GraphQL API via `gh_extract.py` |
 | Raw cache | `raw/<owner>__<repo>/forks.json` |
 | Raw definition | Count of forks created inside the observation window |
-| Score formula | `100 * min(1, log10(1 + f) / 2)` |
-| Cap | 99 forks approximately reaches score 100 |
+| Score formula | `100 * min(1, log10(1 + f) / log10(101))` |
+| Cap | 100 or more forks scores 100 |
 
 Notes:
 
