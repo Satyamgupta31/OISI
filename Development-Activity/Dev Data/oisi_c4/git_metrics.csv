@@ -39,7 +39,7 @@ DSpace,C4-040,DSpace/DSpace,12,50,4,19,541,0.285,74,0.36,11.83,complete,1358,202
 DuraCloud,C4-041,duracloud/duracloud,4,4,1,1,0,0.0,2,124.2,1.38,complete,6,2026-05-29,0,1,1,2,83.33
 Episciences,C4-042,CCSDForge/episciences,12,51,1,2,42,0.036,5,0.42,2.01,complete,1126,2026-10-13,311,0,4,22,64.39
 EPrints,C4-043,eprints/eprints3.4,11,32,1,2,0,0.0,9,5.28,1.83,complete,81,2026-09-25,4,0,3,0,72.84
-Érudit,C4-044,https://gitlab.erudit.org/erudit/portail/eruditorg,,,,,,,,,,"failed: Command '['git', '-C', 'clones\\gitlab.erudit.org_erudit_portail_eruditorg.git', 'symbolic-ref', 'HEAD']' returned non-z",,,,,,,
+Érudit,C4-044,https://gitlab.erudit.org/erudit/portail/eruditorg,0,0,,,0,,0,,,complete,0,2026-10-15,0,0,0,0,
 FAIR Wizard,C4-046,fair-wizard/fair-wizard-integration-sdk,3,3,1,1,0,0.0,1,117.2,1.0,complete,6,2026-06-05,3,0,1,5,100.0
 Fedora,C4-047,fcrepo/fcrepo,10,28,1,2,16,0.205,6,6.45,2.22,complete,62,2026-09-24,0,1,3,6,61.29
 fido,C4-048,openpreserve/fido,3,3,1,1,0,0.0,1,14.67,1.0,complete,9,2026-09-16,0,0,0,1,100.0
