@@ -247,7 +247,7 @@ def main():
     for row_num, item in enumerate(records, start=2):
         repo, git, gh, manual = item["repo"], item["git"], item["gh"], item["manual"]
         scores = item["scores"]
-        score_ref_start = 8
+        score_ref_start = 2
         calc.append([repo["oisi_id"], *[scores[k] for k in METRIC_KEYS], item["final"], item["available_count"], item["coverage"], item["observed_mean"]])
         flags = [int(item["observed"][k]) for k in METRIC_KEYS]
         coverage_ws.append([
